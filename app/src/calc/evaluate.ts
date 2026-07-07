@@ -1,7 +1,8 @@
 // 케이스의 결과 LaTeX들을 계산 가능한 방정식 목록으로 정리하고,
 // 입력 변수들을 모아 평가한다. (Phase 2 계산기)
 import { create, all, type MathJsInstance } from "mathjs";
-import { parseLatexFormula, type Equation } from "./latex.js";
+import { parseLatexFormula, cleanSymbol, type Equation } from "./latex.js";
+import { extractSymbol } from "./symbols";
 import type { Case } from "../types";
 
 const math: MathJsInstance = create(all, {});
@@ -47,7 +48,13 @@ export function buildCalcModel(c: Case): CalcModel {
 
   const seen = new Set<string>();
   for (const r of c.results) {
+    // 등호 없는 공식(단면성능 등)은 출력기호가 name에 있음 → 뽑아서 채운다.
+    const nameSym = r.name ? extractSymbol(r.name) : null;
     for (const eq of parseLatexFormula(r.latex)) {
+      if (eq.outputs.length === 0 && nameSym) {
+        eq.outputs = nameSym.split(",").map((s) => s.trim()).filter(Boolean);
+        eq.primary = cleanSymbol(eq.outputs[0]);
+      }
       // 여러 결과행에서 같은 식이 반복될 때(예: k 정의) 한 번만.
       const sig = eq.outputs.join("|") + "=" + eq.exprLatex;
       if (seen.has(sig)) continue;

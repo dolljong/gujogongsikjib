@@ -1,6 +1,8 @@
+import { useMemo } from "react";
 import type { Case } from "../types";
 import Katex from "./Katex";
 import Calculator from "./Calculator";
+import { buildCalcModel } from "../calc/evaluate";
 import { symbolToLatex } from "../calc/symbols";
 
 // 변수설명("sym : 설명, sym : 설명 …")에서 기호 부분을 LaTeX로 렌더.
@@ -28,13 +30,17 @@ function VariableList({ text }: { text: string }) {
 const BASE = import.meta.env.BASE_URL;
 
 export default function FormulaDetail({ c }: { c: Case | null }) {
-  if (!c) {
+  const model = useMemo(() => (c ? buildCalcModel(c) : null), [c]);
+  if (!c || !model) {
     return (
       <div className="detail empty">
         <p>왼쪽 트리에서 공식을 선택하세요.</p>
       </div>
     );
   }
+  // 계산기가 뜨면 삽도는 계산기 안(입력 왼쪽)에 표시 → 여기선 숨김
+  const hasCalc =
+    model.inputs.length > 0 && model.equations.some((e) => e.computable);
   const crumb = [c.category, c.subCategory, ...c.classes].filter(Boolean);
   return (
     <div className="detail">
@@ -60,7 +66,7 @@ export default function FormulaDetail({ c }: { c: Case | null }) {
       </div>
       {c.desc && <p className="desc">{c.desc}</p>}
 
-      {c.figures.length > 0 && (
+      {!hasCalc && c.figures.length > 0 && (
         <div className={`figure${c.figures.length > 1 ? " figure-multi" : ""}`}>
           {c.figures.map((f, i) => (
             <img
@@ -72,6 +78,8 @@ export default function FormulaDetail({ c }: { c: Case | null }) {
           ))}
         </div>
       )}
+
+      {hasCalc && <Calculator c={c} model={model} />}
 
       <div className="results">
         {c.results.map((r, i) => (
@@ -86,8 +94,6 @@ export default function FormulaDetail({ c }: { c: Case | null }) {
           </div>
         ))}
       </div>
-
-      <Calculator c={c} />
     </div>
   );
 }

@@ -1,8 +1,10 @@
-import { useMemo, useState } from "react";
+import { useState } from "react";
 import type { Case } from "../types";
-import { buildCalcModel, solve } from "../calc/evaluate";
+import { solve, type CalcModel } from "../calc/evaluate";
 import { varToLatex } from "../calc/symbols";
 import Katex from "./Katex";
+
+const BASE = import.meta.env.BASE_URL;
 
 function fmt(n: number): string {
   if (n === 0) return "0";
@@ -28,7 +30,7 @@ function buildLine(
   value: number,
 ): string {
   const valTex = fmtTex(value);
-  const parts = [...outputs, exprLatex];
+  const parts = [...outputs.filter(Boolean), exprLatex];
   // 대입식이 최종값과 같지 않을 때만(예: W=P=10 에서 중복 방지) 추가
   if (substitutedTex && stripTex(substitutedTex) !== stripTex(valTex)) {
     parts.push(substitutedTex);
@@ -37,8 +39,7 @@ function buildLine(
   return parts.join(" = ");
 }
 
-export default function Calculator({ c }: { c: Case }) {
-  const model = useMemo(() => buildCalcModel(c), [c]);
+export default function Calculator({ c, model }: { c: Case; model: CalcModel }) {
   const [vals, setVals] = useState<Record<string, string>>({});
 
   // 입력 없으면 계산기 숨김
@@ -63,21 +64,35 @@ export default function Calculator({ c }: { c: Case }) {
     <div className="calc">
       <div className="calc-head">계산기 <span className="calc-badge">시험판</span></div>
 
-      <div className="calc-inputs">
-        {model.inputs.map((v) => (
-          <label className="calc-field" key={v}>
-            <span className="calc-var">
-              <Katex tex={varToLatex(v)} display={false} />
-            </span>
-            <input
-              type="number"
-              inputMode="decimal"
-              value={vals[v] ?? ""}
-              placeholder="0"
-              onChange={(e) => setVals((s) => ({ ...s, [v]: e.target.value }))}
-            />
-          </label>
-        ))}
+      <div className="calc-top">
+        {c.figures.length > 0 && (
+          <div className={`figure${c.figures.length > 1 ? " figure-multi" : ""}`}>
+            {c.figures.map((f, i) => (
+              <img
+                key={i}
+                src={`${BASE}${f}`}
+                alt={c.figures.length > 1 ? `${c.id} (${i + 1})` : c.id}
+                loading="lazy"
+              />
+            ))}
+          </div>
+        )}
+        <div className="calc-inputs">
+          {model.inputs.map((v) => (
+            <label className="calc-field" key={v}>
+              <span className="calc-var">
+                <Katex tex={varToLatex(v)} display={false} />
+              </span>
+              <input
+                type="number"
+                inputMode="decimal"
+                value={vals[v] ?? ""}
+                placeholder="0"
+                onChange={(e) => setVals((s) => ({ ...s, [v]: e.target.value }))}
+              />
+            </label>
+          ))}
+        </div>
       </div>
 
       {!allFilled && (
@@ -100,7 +115,10 @@ export default function Calculator({ c }: { c: Case }) {
                   </div>
                 ) : (
                   <div className="calc-line calc-line-fail">
-                    <Katex tex={`${eq.outputs.join(" = ")} = ${eq.exprLatex}`} display={false} />
+                    <Katex
+                      tex={[...eq.outputs.filter(Boolean), eq.exprLatex].join(" = ")}
+                      display={false}
+                    />
                     <em className="calc-dom">
                       {" — "}
                       {!eq.computable ? "자동계산 미지원" : "값 없음(입력 확인)"}

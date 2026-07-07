@@ -241,8 +241,15 @@ function isCondition(seg) {
     (/[<>]/.test(seg) && !seg.includes("="));
 }
 
+// 좌변이 '단순 기호'인가? (M_{x}, \theta_{A}, -Q_{B}, e,e_1 …) — \frac·연산자가 있으면 식.
+function isSimpleSymbol(s) {
+  const atom = "(?:\\\\[a-zA-Z]+|[A-Za-z])(?:_\\{[^}]*\\}|_[A-Za-z0-9])?'?";
+  return new RegExp("^-?\\s*" + atom + "(?:\\s*,\\s*" + atom + ")*$").test(s.trim());
+}
+
 // LaTeX 블록 → 방정식 목록.
 // 반환: [{ outputs:[raw..], primary, exprLatex, expr|null, domain|null, error|null }]
+//  - 좌변이 기호가 아니거나 등호가 없으면 outputs:[] (출력기호는 호출부가 name에서 채움).
 export function parseLatexFormula(latex) {
   if (!latex) return [];
   let s = latex;
@@ -269,12 +276,20 @@ export function parseLatexFormula(latex) {
         continue;
       }
       const sides = splitTop(part, ["="]).map((x) => x.trim()).filter(Boolean);
-      if (sides.length < 2) continue; // 등호 없는 조각(라벨 등) 무시
-      const outputs = sides.slice(0, -1);
-      const exprLatex = sides[sides.length - 1];
+      if (sides.length === 0) continue;
+      let outputs, exprLatex;
+      if (sides.length >= 2 && isSimpleSymbol(sides[0])) {
+        // A = B = expr : 좌변들이 출력기호
+        outputs = sides.slice(0, -1);
+        exprLatex = sides[sides.length - 1];
+      } else {
+        // 등호 없음(a^2) 또는 form1=form2(a/√3=0.577a): 통째로 식, 출력은 name에서.
+        outputs = [];
+        exprLatex = sides[0];
+      }
       const eq = {
         outputs,
-        primary: cleanSymbol(outputs[0]),
+        primary: outputs.length ? cleanSymbol(outputs[0]) : "",
         exprLatex,
         expr: null,
         domain: pendingDomain,

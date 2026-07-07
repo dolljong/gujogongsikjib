@@ -11,6 +11,16 @@ export const GREEK = [
 const GREEK_ALT = [...GREEK].sort((a, b) => b.length - a.length).join("|");
 const GREEK_RE = new RegExp("(^|[^A-Za-z\\\\])(" + GREEK_ALT + ")(?![A-Za-z])", "g");
 
+/** 결과 이름("단면적 A", "도심 거리 e,e_1")의 끝에서 출력 기호를 뽑는다.
+ *  등호 없는 단면성능 공식은 기호가 latex이 아니라 name에 있다. */
+export function extractSymbol(name: string): string | null {
+  const atom = "[A-Za-z](?:_\\{?[A-Za-z0-9]+\\}?)?'?";
+  const m = name.trim().match(
+    new RegExp("(" + atom + "(?:\\s*,\\s*" + atom + ")*)\\s*$"),
+  );
+  return m ? m[1].trim() : null;
+}
+
 /** 변수설명 안의 기호 토큰을 표시용 LaTeX로.
  *  예) "varepsilon _i" → "\varepsilon _i", "Delta l" → "\Delta l", "I_P" → "I_P"(그대로) */
 export function symbolToLatex(sym: string): string {

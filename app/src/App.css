@@ -215,12 +215,13 @@ body {
 }
 
 .figure {
-  margin: 22px 0;
+  margin: 22px auto;
+  max-width: 460px;
   text-align: center;
   background: var(--panel);
   border: 1px solid var(--line);
   border-radius: 10px;
-  padding: 18px;
+  padding: 16px;
 }
 .figure img {
   max-width: 100%;
@@ -304,27 +305,50 @@ body {
   background: var(--accent-soft);
   color: var(--accent);
 }
+/* 삽도(왼쪽) + 입력(오른쪽 세로) 나란히 */
+.calc-top {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+.calc-top .figure {
+  margin: 0;
+  flex: 0 1 auto;
+  max-width: min(340px, 52%);
+  padding: 12px;
+}
+.calc-top .figure-multi img {
+  max-width: min(100%, 150px);
+}
 .calc-inputs {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
-  gap: 10px 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  flex: 1 1 190px;
+  min-width: 180px;
 }
 .calc-field {
   display: flex;
-  flex-direction: column;
-  gap: 4px;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
 }
 .calc-var {
   font-size: 13px;
   color: var(--muted);
-  min-height: 18px;
+  min-width: 40px;
+  text-align: right;
+  flex: 0 0 auto;
 }
 .calc-field input {
   padding: 7px 9px;
   border: 1px solid var(--line);
   border-radius: 7px;
   font-size: 14px;
-  width: 100%;
+  flex: 1 1 auto;
+  min-width: 0;
+  max-width: 160px;
   box-sizing: border-box;
 }
 .calc-field input:focus {
