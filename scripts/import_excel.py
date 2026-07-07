@@ -74,19 +74,33 @@ def cell(ws, r, c):
     return v
 
 
-def find_figure(fig_folder, case_id):
-    """삽도 폴더에서 case_id 이미지를 찾아 app/public/figures 로 복사하고
-    웹에서 참조할 상대경로("figures/<파일>")를 반환한다."""
+def _copy_fig(src):
+    os.makedirs(FIG_OUT, exist_ok=True)
+    name = os.path.basename(src)
+    shutil.copyfile(src, os.path.join(FIG_OUT, name))
+    return f"figures/{name}"
+
+
+def find_figures(fig_folder, case_id):
+    """삽도 폴더에서 case_id 이미지를 모두 찾아 복사하고 상대경로 리스트를 반환.
+    - 정확일치 `<id>.png` 가 있으면 그 한 장.
+    - 없으면 `<id>.N.png`(N=숫자) 여러 장을 번호순으로 (계수표·형상군 삽도)."""
     if not fig_folder or not os.path.isdir(fig_folder):
-        return None
-    for ext in IMG_EXTS:
+        return []
+    for ext in IMG_EXTS:                       # 1) 정확일치 우선
         src = os.path.join(fig_folder, f"{case_id}{ext}")
         if os.path.exists(src):
-            os.makedirs(FIG_OUT, exist_ok=True)
-            dst_name = f"{case_id}{ext}"
-            shutil.copyfile(src, os.path.join(FIG_OUT, dst_name))
-            return f"figures/{dst_name}"
-    return None
+            return [_copy_fig(src)]
+    # 2) 다중 삽도: <id>.<숫자>.<ext>
+    multi = []
+    pat = re.compile(r"^" + re.escape(str(case_id)) + r"\.(\d+)\.(" +
+                     "|".join(e.lstrip(".") for e in IMG_EXTS) + r")$", re.I)
+    for name in os.listdir(fig_folder):
+        m = pat.match(name)
+        if m:
+            multi.append((int(m.group(1)), os.path.join(fig_folder, name)))
+    multi.sort(key=lambda t: t[0])
+    return [_copy_fig(p) for _, p in multi]
 
 
 def category_meta(filename):
@@ -143,15 +157,15 @@ def main():
                         "id": cid,
                         "classes": [c for c in classes if c],
                         "page": page,
-                        "figure": find_figure(fig_folder, cid),
+                        "figures": find_figures(fig_folder, cid),
                         "desc": desc,
                         "results": [],
                     }
                     order_seen.append(key)
                 g = grouped[key]
                 # 첫 행에서 못 채운 메타 보강
-                if g["figure"] is None:
-                    g["figure"] = find_figure(fig_folder, cid)
+                if not g["figures"]:
+                    g["figures"] = find_figures(fig_folder, cid)
                 if not g["classes"]:
                     g["classes"] = [c for c in classes if c]
                 if g["page"] is None:
@@ -177,7 +191,7 @@ def main():
 
     # 요약
     total_results = sum(len(c["results"]) for c in cases)
-    with_fig = sum(1 for c in cases if c["figure"])
+    with_fig = sum(1 for c in cases if c["figures"])
     print(f"cases        : {len(cases)}")
     print(f"result rows  : {total_results}")
     print(f"with figure  : {with_fig}/{len(cases)}")

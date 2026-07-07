@@ -6,7 +6,7 @@
   "id": "0. 재료역학 공식#1",
   "classes": [],
   "page": 14,
-  "figure": null,
+  "figures": [],
   "desc": "하중이 작용할 때 종방향 변형도",
   "results": [
    {
@@ -25,7 +25,7 @@
   "id": "0. 재료역학 공식#2",
   "classes": [],
   "page": 14,
-  "figure": null,
+  "figures": [],
   "desc": "하중이 작용할 때 횡방향 변형도",
   "results": [
    {
@@ -44,7 +44,7 @@
   "id": "0. 재료역학 공식#3",
   "classes": [],
   "page": 14,
-  "figure": null,
+  "figures": [],
   "desc": "전단력이 작용하는 미소구간에 대한 어긋난 양",
   "results": [
    {
@@ -63,7 +63,7 @@
   "id": "0. 재료역학 공식#4",
   "classes": [],
   "page": 14,
-  "figure": null,
+  "figures": [],
   "desc": "수직응력도와 종변형도 사이의 비례정수",
   "results": [
    {
@@ -82,7 +82,7 @@
   "id": "0. 재료역학 공식#5",
   "classes": [],
   "page": 14,
-  "figure": null,
+  "figures": [],
   "desc": "전단응력도와 전단변형도 사이 비례 정수",
   "results": [
    {
@@ -101,7 +101,7 @@
   "id": "0. 재료역학 공식#6",
   "classes": [],
   "page": 14,
-  "figure": null,
+  "figures": [],
   "desc": "온도 변화에 따른 단위길이에 생기는 길이의 변화",
   "results": [
    {
@@ -120,7 +120,7 @@
   "id": "0. 재료역학 공식#7",
   "classes": [],
   "page": 14,
-  "figure": null,
+  "figures": [],
   "desc": "봉의 종변형도에 대한 횡변형도의 비",
   "results": [
    {
@@ -139,7 +139,7 @@
   "id": "0. 재료역학 공식#8",
   "classes": [],
   "page": 14,
-  "figure": null,
+  "figures": [],
   "desc": "봉의 횡변형도에 대한 종변형도의 비",
   "results": [
    {
@@ -158,7 +158,7 @@
   "id": "0. 재료역학 공식#9",
   "classes": [],
   "page": 15,
-  "figure": null,
+  "figures": [],
   "desc": "단면적 A에 하중이 작용할 때의 수직응력도",
   "results": [
    {
@@ -177,7 +177,7 @@
   "id": "0. 재료역학 공식#10",
   "classes": [],
   "page": 15,
-  "figure": null,
+  "figures": [],
   "desc": "모멘트를 받는 휨부재 단면의 양끝이 늘어남과 줄어듬에 따라 생기는 응력도",
   "results": [
    {
@@ -196,7 +196,7 @@
   "id": "0. 재료역학 공식#11",
   "classes": [],
   "page": 15,
-  "figure": null,
+  "figures": [],
   "desc": "보에 하중이 작용할 때 임의 단면에서의 전단응력도",
   "results": [
    {
@@ -215,7 +215,7 @@
   "id": "0. 재료역학 공식#12",
   "classes": [],
   "page": 15,
-  "figure": null,
+  "figures": [],
   "desc": "고정된 봉의 선단에 비틀림 모멘트를 가했을 때, 축선 둘레의 내부에 발생하는 비틀림 응력",
   "results": [
    {
@@ -234,7 +234,7 @@
   "id": "0. 재료역학 공식#13",
   "classes": [],
   "page": 15,
-  "figure": null,
+  "figures": [],
   "desc": "온도의 변화에 의해 봉의 길이가 변화할 때의 응력",
   "results": [
    {
@@ -253,7 +253,7 @@
   "id": "0. 재료역학 공식#14",
   "classes": [],
   "page": 16,
-  "figure": null,
+  "figures": [],
   "desc": "재료의 횡단면의 면적",
   "results": [
    {
@@ -272,7 +272,7 @@
   "id": "0. 재료역학 공식#15",
   "classes": [],
   "page": 16,
-  "figure": null,
+  "figures": [],
   "desc": "어느 단면 내의 미소면적에, 어떤 축에서 그 미소면적까지의 거리를 곱한 것의 총합",
   "results": [
    {
@@ -291,7 +291,7 @@
   "id": "0. 재료역학 공식#16",
   "classes": [],
   "page": 16,
-  "figure": null,
+  "figures": [],
   "desc": "임의의 교차되는 2축에서, 그 양축에 관한 단면 1차 모멘트를 각각 구하고, 그 값을 단면으로 나눈 값",
   "results": [
    {
@@ -310,7 +310,7 @@
   "id": "0. 재료역학 공식#17",
   "classes": [],
   "page": 16,
-  "figure": null,
+  "figures": [],
   "desc": "단면 내의 미소면저과 임의의 축에서의 거리의 2승과의 곱을 전단면에 대해서 구한 총합",
   "results": [
    {
@@ -329,7 +329,7 @@
   "id": "0. 재료역학 공식#18",
   "classes": [],
   "page": 16,
-  "figure": null,
+  "figures": [],
   "desc": "단면 중의 미소면적 dA에 x축에서 dA까지의 거리 와 y축에서 dA까지의 거리 x를 곱한 것을 전단면에 대해서 적분한 값",
   "results": [
    {
@@ -348,7 +348,7 @@
   "id": "0. 재료역학 공식#19",
   "classes": [],
   "page": 16,
-  "figure": null,
+  "figures": [],
   "desc": "도심을 지나는 축에 관한 단면 2차모멘트 I를 단면적을 A로 할 때, I와 A의 비의 평방근",
   "results": [
    {
@@ -367,7 +367,7 @@
   "id": "0. 재료역학 공식#20",
   "classes": [],
   "page": 16,
-  "figure": null,
+  "figures": [],
   "desc": "어떤 단면의 미소면적 dA와 dA의 좌표축의 원점까지의 거리 r의 2승과의 곱 r²*dA를 전단면에 대해서 합성한 값",
   "results": [
    {
@@ -386,7 +386,7 @@
   "id": "0. 재료역학 공식#21",
   "classes": [],
   "page": 16,
-  "figure": null,
+  "figures": [],
   "desc": "단면 극 2차모멘트를 I_p, 단면적을 A로 할 때, I_p와 A의 비의 평방근",
   "results": [
    {
@@ -405,7 +405,7 @@
   "id": "0. 재료역학 공식#22",
   "classes": [],
   "page": 16,
-  "figure": null,
+  "figures": [],
   "desc": "도심을 지나는 축에 관한 단면 2차모멘트 I를 그 축에서 단면의 상, 하연까지 거리 y_1,y_2로 나눈 값",
   "results": [
    {
@@ -424,7 +424,7 @@
   "id": "0. 재료역학 공식#23",
   "classes": [],
   "page": 47,
-  "figure": null,
+  "figures": [],
   "desc": "부재를 절단했을 때, 그 좌측(또는 우측)이 균형을 위해 필요한 절단면에 작용하는힘. 축의 수직 방향의 힘을 전단력(Q)라고 한다.",
   "results": [
    {
@@ -443,7 +443,7 @@
   "id": "0. 재료역학 공식#24",
   "classes": [],
   "page": 47,
-  "figure": null,
+  "figures": [],
   "desc": "부재를 절단한 점의 둘레 모멘트",
   "results": [
    {
@@ -462,7 +462,7 @@
   "id": "0. 재료역학 공식#25",
   "classes": [],
   "page": 48,
-  "figure": null,
+  "figures": [],
   "desc": "보가 휨을 받아서 변형될 때, 보의 축선변형을 처짐곡선이라 부르며, 그 구배를 처짐각이라 부른다.",
   "results": [
    {
@@ -481,7 +481,7 @@
   "id": "0. 재료역학 공식#26",
   "classes": [],
   "page": 48,
-  "figure": null,
+  "figures": [],
   "desc": "보가 휨을 받아서 변형될 때, 보의 축선 변형",
   "results": [
    {
@@ -502,7 +502,9 @@
    "정사각형(도심)"
   ],
   "page": 18,
-  "figure": "figures/1.6.1.png",
+  "figures": [
+   "figures/1.6.1.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -551,7 +553,9 @@
    "정사각형(바닥,밑변)"
   ],
   "page": 18,
-  "figure": "figures/1.6.2.png",
+  "figures": [
+   "figures/1.6.2.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -600,7 +604,9 @@
    "마름모"
   ],
   "page": 18,
-  "figure": "figures/1.6.3.png",
+  "figures": [
+   "figures/1.6.3.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -649,7 +655,9 @@
    "직사각형(도심)"
   ],
   "page": 18,
-  "figure": "figures/1.6.4.png",
+  "figures": [
+   "figures/1.6.4.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -698,7 +706,9 @@
    "직사각형(바닥,밑변)"
   ],
   "page": 18,
-  "figure": "figures/1.6.5.png",
+  "figures": [
+   "figures/1.6.5.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -747,7 +757,9 @@
    "회전된 직사각형(기울어진 직사각형, 거리)"
   ],
   "page": 18,
-  "figure": "figures/1.6.6.png",
+  "figures": [
+   "figures/1.6.6.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -796,7 +808,9 @@
    "회전된 직사각형(기울어진 직사각형, 각도)"
   ],
   "page": 18,
-  "figure": "figures/1.6.7.png",
+  "figures": [
+   "figures/1.6.7.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -845,7 +859,9 @@
    "중공 정사각형(도심)"
   ],
   "page": 20,
-  "figure": "figures/1.6.8.png",
+  "figures": [
+   "figures/1.6.8.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -894,7 +910,9 @@
    "중공 정사각형(바닥, 밑변)"
   ],
   "page": 20,
-  "figure": "figures/1.6.9.png",
+  "figures": [
+   "figures/1.6.9.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -943,7 +961,9 @@
    "중공 마름모"
   ],
   "page": 20,
-  "figure": "figures/1.6.10.png",
+  "figures": [
+   "figures/1.6.10.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -992,7 +1012,9 @@
    "중공 직사각형"
   ],
   "page": 20,
-  "figure": "figures/1.6.11.png",
+  "figures": [
+   "figures/1.6.11.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -1041,7 +1063,9 @@
    "길이 다른 판"
   ],
   "page": 20,
-  "figure": "figures/1.6.12.png",
+  "figures": [
+   "figures/1.6.12.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -1090,7 +1114,9 @@
    "길이 같은 판"
   ],
   "page": 20,
-  "figure": "figures/1.6.13.png",
+  "figures": [
+   "figures/1.6.13.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -1139,7 +1165,9 @@
    "정육각형(위아래가 면으로 되어있는 육각형)"
   ],
   "page": 20,
-  "figure": "figures/1.6.14.png",
+  "figures": [
+   "figures/1.6.14.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -1188,7 +1216,9 @@
    "정육각형(위아래가 꼭짓점으로 되어있는 육각형)"
   ],
   "page": 22,
-  "figure": "figures/1.6.15.png",
+  "figures": [
+   "figures/1.6.15.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -1237,7 +1267,9 @@
    "정팔각형(높이)"
   ],
   "page": 22,
-  "figure": "figures/1.6.16.png",
+  "figures": [
+   "figures/1.6.16.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -1286,7 +1318,9 @@
    "정팔각형(한변의 길이)"
   ],
   "page": 22,
-  "figure": "figures/1.6.17.png",
+  "figures": [
+   "figures/1.6.17.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -1335,7 +1369,9 @@
    "다각형(n각형, 위아래가 꼭짓점으로 되어있는 육각형)"
   ],
   "page": 22,
-  "figure": "figures/1.6.18.png",
+  "figures": [
+   "figures/1.6.18.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -1384,7 +1420,9 @@
    "다각형 (n각형, 위아래가 면으로 되어있는 육각형)"
   ],
   "page": 22,
-  "figure": "figures/1.6.19.png",
+  "figures": [
+   "figures/1.6.19.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -1433,7 +1471,9 @@
    "사다리꼴(도심)"
   ],
   "page": 22,
-  "figure": "figures/1.6.20.png",
+  "figures": [
+   "figures/1.6.20.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -1482,7 +1522,9 @@
    "사다리꼴(밑변)"
   ],
   "page": 22,
-  "figure": "figures/1.6.21.png",
+  "figures": [
+   "figures/1.6.21.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -1531,7 +1573,9 @@
    "등변 사다리꼴"
   ],
   "page": 24,
-  "figure": "figures/1.6.22.png",
+  "figures": [
+   "figures/1.6.22.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -1580,7 +1624,9 @@
    "정삼각형(도심)"
   ],
   "page": 24,
-  "figure": "figures/1.6.23.png",
+  "figures": [
+   "figures/1.6.23.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -1629,7 +1675,9 @@
    "정삼각형(밑변)"
   ],
   "page": 24,
-  "figure": "figures/1.6.24.png",
+  "figures": [
+   "figures/1.6.24.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -1678,7 +1726,9 @@
    "원"
   ],
   "page": 24,
-  "figure": "figures/1.6.25.png",
+  "figures": [
+   "figures/1.6.25.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -1727,7 +1777,9 @@
    "반원 (가로)"
   ],
   "page": 24,
-  "figure": "figures/1.6.26.png",
+  "figures": [
+   "figures/1.6.26.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -1776,7 +1828,9 @@
    "반원 (세로)"
   ],
   "page": 24,
-  "figure": "figures/1.6.27.png",
+  "figures": [
+   "figures/1.6.27.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -1825,7 +1879,9 @@
    "타원"
   ],
   "page": 24,
-  "figure": "figures/1.6.28.png",
+  "figures": [
+   "figures/1.6.28.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -1874,7 +1930,9 @@
    "중공 원"
   ],
   "page": 26,
-  "figure": "figures/1.6.29.png",
+  "figures": [
+   "figures/1.6.29.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -1923,7 +1981,9 @@
    "중공 반원 (가로)"
   ],
   "page": 26,
-  "figure": "figures/1.6.30.png",
+  "figures": [
+   "figures/1.6.30.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -1972,7 +2032,9 @@
    "중공 타원"
   ],
   "page": 26,
-  "figure": "figures/1.6.31.png",
+  "figures": [
+   "figures/1.6.31.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -2021,7 +2083,9 @@
    "사분원"
   ],
   "page": 26,
-  "figure": "figures/1.6.32.png",
+  "figures": [
+   "figures/1.6.32.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -2070,7 +2134,9 @@
    "원 외적 (정사각형-사분원)"
   ],
   "page": 26,
-  "figure": "figures/1.6.33.png",
+  "figures": [
+   "figures/1.6.33.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -2119,7 +2185,9 @@
    "포물선"
   ],
   "page": 26,
-  "figure": "figures/1.6.34.png",
+  "figures": [
+   "figures/1.6.34.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -2168,7 +2236,9 @@
    "반포물선"
   ],
   "page": 26,
-  "figure": "figures/1.6.35.png",
+  "figures": [
+   "figures/1.6.35.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -2217,7 +2287,9 @@
    "반포물 여유적 (직사각형-사분타원)"
   ],
   "page": 28,
-  "figure": "figures/1.6.36.png",
+  "figures": [
+   "figures/1.6.36.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -2266,7 +2338,9 @@
    "정사각형 외적 (정사각형-사분원)"
   ],
   "page": 28,
-  "figure": "figures/1.6.37.png",
+  "figures": [
+   "figures/1.6.37.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -2315,7 +2389,9 @@
    "반 타원 (타원 1/2)"
   ],
   "page": 28,
-  "figure": "figures/1.6.38.png",
+  "figures": [
+   "figures/1.6.38.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -2364,7 +2440,9 @@
    "4분 타원 (타원 1/4)"
   ],
   "page": 28,
-  "figure": "figures/1.6.39.png",
+  "figures": [
+   "figures/1.6.39.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -2413,7 +2491,9 @@
    "타원 외적 (직사각형-타원)"
   ],
   "page": 28,
-  "figure": "figures/1.6.40.png",
+  "figures": [
+   "figures/1.6.40.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -2462,7 +2542,9 @@
    "부채꼴 (세로 부채꼴, 비대칭)"
   ],
   "page": 28,
-  "figure": "figures/1.6.41.png",
+  "figures": [
+   "figures/1.6.41.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -2511,7 +2593,9 @@
    "부채꼴 (각도 중심, 각도 1/2, 가로 부채꼴, 대칭)"
   ],
   "page": 28,
-  "figure": "figures/1.6.42.png",
+  "figures": [
+   "figures/1.6.42.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -2560,7 +2644,9 @@
    "부채꼴 (phi)"
   ],
   "page": 30,
-  "figure": "figures/1.6.43.png",
+  "figures": [
+   "figures/1.6.43.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -2609,7 +2695,9 @@
    "부채꼴 (2a) (중심: 호-현 )"
   ],
   "page": 30,
-  "figure": "figures/1.6.44.png",
+  "figures": [
+   "figures/1.6.44.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -2658,7 +2746,9 @@
    "호 도형, 활꼴 (호-현, 대칭, 가로 활꼴)"
   ],
   "page": 30,
-  "figure": "figures/1.6.45.png",
+  "figures": [
+   "figures/1.6.45.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -2707,7 +2797,9 @@
    "정사각형-원 (중심 원중공 정사각형)"
   ],
   "page": 30,
-  "figure": "figures/1.6.46.png",
+  "figures": [
+   "figures/1.6.46.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -2756,7 +2848,9 @@
    "공형 강관, 원형, 십자"
   ],
   "page": 30,
-  "figure": "figures/1.6.47.png",
+  "figures": [
+   "figures/1.6.47.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -2805,7 +2899,9 @@
    "중공 공형 강관, 원형, 십자"
   ],
   "page": 30,
-  "figure": "figures/1.6.48.png",
+  "figures": [
+   "figures/1.6.48.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -2854,7 +2950,9 @@
    "중공 직사각형, I형강, ㄷ형강"
   ],
   "page": 30,
-  "figure": "figures/1.6.49.png",
+  "figures": [
+   "figures/1.6.49.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -2903,7 +3001,9 @@
    "+형강, ㅏ형강, H형강"
   ],
   "page": 32,
-  "figure": "figures/1.6.50.png",
+  "figures": [
+   "figures/1.6.50.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -2952,7 +3052,9 @@
    "ㅗ형강, L형강, U형강"
   ],
   "page": 32,
-  "figure": "figures/1.6.51.png",
+  "figures": [
+   "figures/1.6.51.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -3001,7 +3103,9 @@
    "비대칭 I형강, 비대칭 ㄷ형강"
   ],
   "page": 32,
-  "figure": "figures/1.6.52.png",
+  "figures": [
+   "figures/1.6.52.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -3050,7 +3154,9 @@
    "펴진 Z형 (S형)"
   ],
   "page": 32,
-  "figure": "figures/1.6.53.png",
+  "figures": [
+   "figures/1.6.53.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -3100,7 +3206,9 @@
    "캔틸레버 보 끝단에 집중하중이 작용"
   ],
   "page": 56,
-  "figure": "figures/2.3.1.png",
+  "figures": [
+   "figures/2.3.1.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -3150,7 +3258,9 @@
    "캔틸레버 보 고정단에서 b만큼 떨어진 지점에 집중하중이 작용"
   ],
   "page": 56,
-  "figure": "figures/2.3.2.png",
+  "figures": [
+   "figures/2.3.2.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -3200,7 +3310,9 @@
    "캔틸레버 보 경간 L 전체에 등분포하중 작용"
   ],
   "page": 56,
-  "figure": "figures/2.3.3.png",
+  "figures": [
+   "figures/2.3.3.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -3250,7 +3362,9 @@
    "캔틸레버 보 경간 L 전체에 삼각분포하중 작용 (고정단쪽으로 갈수록 더 큰 하중 작용)"
   ],
   "page": 57,
-  "figure": "figures/2.3.4.png",
+  "figures": [
+   "figures/2.3.4.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -3300,7 +3414,9 @@
    "캔틸레버 보 경간 L 전체에 삼각분포하중 작용 (끝단쪽으로 갈수록 더 큰 하중 작용)"
   ],
   "page": 57,
-  "figure": "figures/2.3.5.png",
+  "figures": [
+   "figures/2.3.5.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -3350,7 +3466,9 @@
    "캔틸레버 보 경간 L 전체에 삼각분포하중과 등분포하중 작용(사다리꼴 합성분포하중)"
   ],
   "page": 57,
-  "figure": "figures/2.3.6.png",
+  "figures": [
+   "figures/2.3.6.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -3400,7 +3518,9 @@
    "캔틸레버 보 고정단에서 b만큼 떨어진 지점부터 끝단까지 거리 a만큼 등분포하중 작용"
   ],
   "page": 58,
-  "figure": "figures/2.3.7.png",
+  "figures": [
+   "figures/2.3.7.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -3450,7 +3570,9 @@
    "캔틸레버 보 고정단에서 c만큼 떨어진 지점부터 거리 b만큼 등분포하중 작용"
   ],
   "page": 58,
-  "figure": "figures/2.3.8.png",
+  "figures": [
+   "figures/2.3.8.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -3500,7 +3622,9 @@
    "캔틸레버 보 고정단에서 b만큼 떨어진 지점부터 끝단까지의 거리 a만큼 삼각분포하중 작용(끝단쪽으로 갈수록 더 큰 하중 작용)"
   ],
   "page": 58,
-  "figure": "figures/2.3.9.png",
+  "figures": [
+   "figures/2.3.9.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -3550,7 +3674,9 @@
    "캔틸레버 보 고정단에서 c만큼 떨어진 지점부터 거리 b만큼 삼각분포하중 작용(고정단쪽으로 갈수록 더 큰 하중 작용)"
   ],
   "page": 59,
-  "figure": "figures/2.3.11.png",
+  "figures": [
+   "figures/2.3.11.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -3600,7 +3726,9 @@
    "캔틸레버 보 고정단에서 c만큼 떨어진 지점부터 거리 b만큼 삼각분포하중 작용(끝단쪽으로 갈수록 더 큰 하중 작용)"
   ],
   "page": 59,
-  "figure": "figures/2.3.12.png",
+  "figures": [
+   "figures/2.3.12.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -3650,7 +3778,9 @@
    "캔틸레버 보 경간 L 전체에 이등변삼각형 분포하중 작용(삼각분포하중이 대칭으로 작용)"
   ],
   "page": 60,
-  "figure": "figures/2.3.13.png",
+  "figures": [
+   "figures/2.3.13.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -3700,7 +3830,9 @@
    "캔틸레버보 끝단에 모멘트 M 작용"
   ],
   "page": 60,
-  "figure": "figures/2.3.14.png",
+  "figures": [
+   "figures/2.3.14.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -3750,7 +3882,9 @@
    "캔틸레버보 고정단에서 b만큼 떨어진 지점에 모멘트 M 작용"
   ],
   "page": 60,
-  "figure": "figures/2.3.15.png",
+  "figures": [
+   "figures/2.3.15.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -3800,7 +3934,9 @@
    "단순보 중앙에 집중하중 P 작용"
   ],
   "page": 61,
-  "figure": "figures/2.4.1.png",
+  "figures": [
+   "figures/2.4.1.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -3850,7 +3986,9 @@
    "단순보 끝단에서 a만큼 떨어진 지점에 집중하중 P 작용"
   ],
   "page": 61,
-  "figure": "figures/2.4.2.png",
+  "figures": [
+   "figures/2.4.2.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -3900,7 +4038,9 @@
    "단순보의 3등분(l/3) 점에 집중하중 P 작용하여 총 2개의 집중하중이 보에 작용"
   ],
   "page": 61,
-  "figure": "figures/2.4.3.png",
+  "figures": [
+   "figures/2.4.3.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -3950,7 +4090,9 @@
    "단순보의 4등분(l/4) 점에 집중하중 P 작용하여 총 3개의 집중하중이 보에 작용"
   ],
   "page": 62,
-  "figure": "figures/2.4.4.png",
+  "figures": [
+   "figures/2.4.4.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -4000,7 +4142,9 @@
    "단순보의 5등분(l/5) 점에 집중하중 P 작용하여 총 4개의 집중하중이 보에 작용"
   ],
   "page": 62,
-  "figure": "figures/2.4.5.png",
+  "figures": [
+   "figures/2.4.5.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -4050,7 +4194,9 @@
    "단순보 양측 끝단에서 a만큼 떨어진 지점에 집중하중 P 작용"
   ],
   "page": 62,
-  "figure": "figures/2.4.6.png",
+  "figures": [
+   "figures/2.4.6.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -4100,7 +4246,9 @@
    "단순보의 경간 L 전체에 등분포하중 작용"
   ],
   "page": 63,
-  "figure": "figures/2.4.7.png",
+  "figures": [
+   "figures/2.4.7.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -4150,7 +4298,9 @@
    "단순보 경간 L 전체에 삼각분포하중 작용"
   ],
   "page": 63,
-  "figure": "figures/2.4.8.png",
+  "figures": [
+   "figures/2.4.8.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -4200,7 +4350,9 @@
    "단순보 경간 L 전체에 이등변삼각형 분포하중 작용(중심에서 끝단으로 갈수록 작아지는 하중)"
   ],
   "page": 63,
-  "figure": "figures/2.4.9.png",
+  "figures": [
+   "figures/2.4.9.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -4250,7 +4402,9 @@
    "단순보 경간 L에서 L/2마다 같은 크기의 이등변삼각형 분포하중 작용(이등분 이등변삼각분포 하중)"
   ],
   "page": 64,
-  "figure": "figures/2.4.10.png",
+  "figures": [
+   "figures/2.4.10.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -4300,7 +4454,9 @@
    "단순보 경간 L에서 L/3마다 같은 크기의 이등변삼각형 분포하중 작용(삼등분 이등변삼각분포 하중)"
   ],
   "page": 64,
-  "figure": "figures/2.4.11.png",
+  "figures": [
+   "figures/2.4.11.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -4350,7 +4506,9 @@
    "단순보 경간 L에서 L/4마다 이등변삼각형 같은 크기의 분포하중 작용(사등분 이등변삼각분포 하중)"
   ],
   "page": 64,
-  "figure": "figures/2.4.12.png",
+  "figures": [
+   "figures/2.4.12.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -4400,7 +4558,9 @@
    "단순보 경간 L 전체에 삼각분포하중과 등분포하중 작용(사다리꼴 합성분포하중)"
   ],
   "page": 65,
-  "figure": "figures/2.4.14.png",
+  "figures": [
+   "figures/2.4.14.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -4450,7 +4610,9 @@
    "단순보 양측 끝단에서 a만큼 떨어진 지점에 등분포하중 작용"
   ],
   "page": 65,
-  "figure": "figures/2.4.15.png",
+  "figures": [
+   "figures/2.4.15.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -4500,7 +4662,9 @@
    "단순보의 지점 A에서 a만큼 떨어진 지점부터 지점 B에서 c만큼 떨어진 지점까지 거리 b에 등분포하중 작용"
   ],
   "page": 66,
-  "figure": "figures/2.4.16.png",
+  "figures": [
+   "figures/2.4.16.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -4550,7 +4714,9 @@
    "단순보의 끝단에서 a만큼 떨어진 지점부터 거리 b에 등분포하중 작용"
   ],
   "page": 66,
-  "figure": "figures/2.4.17.png",
+  "figures": [
+   "figures/2.4.17.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -4600,7 +4766,9 @@
    "단순보 양측 끝단부터 거리 a씩만큼 등분포하중 작용 (총 등분포하중 2a)"
   ],
   "page": 66,
-  "figure": "figures/2.4.18.png",
+  "figures": [
+   "figures/2.4.18.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -4650,7 +4818,9 @@
    "단순보에 크기가 다른 등분포하중이 l/2씩 작용"
   ],
   "page": 67,
-  "figure": "figures/2.4.19.png",
+  "figures": [
+   "figures/2.4.19.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -4700,7 +4870,9 @@
    "단순보의 끝단A에서 a만큼 떨어진 지점부터 거리 b만큼 삼각분포하중 작용"
   ],
   "page": 67,
-  "figure": "figures/2.4.21.png",
+  "figures": [
+   "figures/2.4.21.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -4743,7 +4915,9 @@
    "단순보의 끝단A에서 a만큼 떨어진 지점부터 끝단 B점까지 삼각분포하중 작용"
   ],
   "page": 68,
-  "figure": "figures/2.4.22.png",
+  "figures": [
+   "figures/2.4.22.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -4786,7 +4960,9 @@
    "단순보 양측 끝단에서 중심으로 갈수록 하중이 작아지는 대칭 삼각분포하중"
   ],
   "page": 68,
-  "figure": "figures/2.4.23.png",
+  "figures": [
+   "figures/2.4.23.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -4836,7 +5012,9 @@
    "단순보의 경간 L 전체에 포물삼각분포하중 작용"
   ],
   "page": 68,
-  "figure": "figures/2.4.24.png",
+  "figures": [
+   "figures/2.4.24.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -4886,7 +5064,9 @@
    "단순보의 경간 L 전체에 포물선분포하중 작용"
   ],
   "page": 69,
-  "figure": "figures/2.4.25.png",
+  "figures": [
+   "figures/2.4.25.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -4936,7 +5116,9 @@
    "단순보 끝단에서 a만큼 떨어진 지점에 모멘트 M 작용"
   ],
   "page": 69,
-  "figure": "figures/2.4.26.png",
+  "figures": [
+   "figures/2.4.26.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -4979,7 +5161,9 @@
    "단순보 한 쪽 끝단에 모멘트 작용"
   ],
   "page": 69,
-  "figure": "figures/2.4.27.png",
+  "figures": [
+   "figures/2.4.27.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -5022,7 +5206,9 @@
    "단순보 양측 끝단에 같은 크기의 모멘트가 작용"
   ],
   "page": 70,
-  "figure": "figures/2.4.28.png",
+  "figures": [
+   "figures/2.4.28.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -5065,7 +5251,9 @@
    "단순보 양측 끝단에 다른 크기의 모멘트가 작용"
   ],
   "page": 70,
-  "figure": "figures/2.4.29.png",
+  "figures": [
+   "figures/2.4.29.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -5108,7 +5296,9 @@
    "단순보의 끝단 A지점에서 a만큼 떨어진 C지점에 모멘트가 작용하고, 끝단 B지점에서 c만큼 떨어진 D지점에 모멘트가 작용"
   ],
   "page": 70,
-  "figure": "figures/2.4.30.png",
+  "figures": [
+   "figures/2.4.30.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -5137,7 +5327,9 @@
    "단순보 경간 l 전체에 등분포하중이 작용하고 양측 끝단에 다른 크기의 모멘트가 작용"
   ],
   "page": 71,
-  "figure": "figures/2.4.31.png",
+  "figures": [
+   "figures/2.4.31.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -5180,7 +5372,9 @@
    "단순보 끝단 A지점에서 a만큼 떨어진 지점까지 삼각분포하중이 작용하고, 끝단 B지점에서 b만큼 덜어진 지점까지 삼각분포하중이 작용(양끝단으로 갈수록 하중이 작아지는 삼각분포하중)"
   ],
   "page": 71,
-  "figure": "figures/2.4.32.png",
+  "figures": [
+   "figures/2.4.32.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -5216,7 +5410,9 @@
    "단순보에 크기가 동일한 2개의 이동하중이 a간격으로 작용"
   ],
   "page": 72,
-  "figure": "figures/2.5.1.png",
+  "figures": [
+   "figures/2.5.1.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -5259,7 +5455,9 @@
    "단순보에 크기가 다른 2개의 이동하중이 a 간격으로 작용"
   ],
   "page": 72,
-  "figure": "figures/2.5.2.png",
+  "figures": [
+   "figures/2.5.2.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -5309,7 +5507,9 @@
    "단순보에 크기가 동일한 3개의 이동하중이 동일한 간격으로 작용"
   ],
   "page": 72,
-  "figure": "figures/2.5.3.png",
+  "figures": [
+   "figures/2.5.3.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -5352,7 +5552,9 @@
    "단순보에 크기가 동일한 2개의 하중이 a 간격으로 작용하고 크기가 다른 1개의 하중이 뒤이어 b 간격으로 작용"
   ],
   "page": 73,
-  "figure": "figures/2.5.4.png",
+  "figures": [
+   "figures/2.5.4.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -5388,7 +5590,9 @@
    "단순보에 크기가 동일한 3개의 이동하중이 a간격과 b간격으로 작용"
   ],
   "page": 73,
-  "figure": "figures/2.5.5.png",
+  "figures": [
+   "figures/2.5.5.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -5424,7 +5628,9 @@
    "단순보에 크기가 동일한 4개의 이동하중이 동일한 간격으로 작용"
   ],
   "page": 73,
-  "figure": "figures/2.5.6.png",
+  "figures": [
+   "figures/2.5.6.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -5467,7 +5673,9 @@
    "크기가 동일한 네개의 이동하중이 단순보에 두개의 이동하중씩 동일한 간격으로 작용(이동하중 간 거리가 a-b-a 순), a<b인 경우"
   ],
   "page": 74,
-  "figure": "figures/2.5.7.png",
+  "figures": [
+   "figures/2.5.7.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -5517,7 +5725,9 @@
    "동일한 크기의 크기가 큰 이동하중 두개가 중간에 거리 b로 작용하고 동일한 크기의 크기가 작은 하중이 양쪽으로 거리 a로 총 네개의 하중 작용(이동하중 간 거리가 a-b-a 순)"
   ],
   "page": 74,
-  "figure": "figures/2.5.8.png",
+  "figures": [
+   "figures/2.5.8.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -5553,7 +5763,9 @@
    "한쪽만 돌출되어 있는 돌출 단순보의 돌출부 끝에 집중하중 P 작용"
   ],
   "page": 75,
-  "figure": "figures/2.6.1.png",
+  "figures": [
+   "figures/2.6.1.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -5603,7 +5815,9 @@
    "한쪽만 돌출되어 있는 돌출 단순보 전체에 등분포하중 작용"
   ],
   "page": 75,
-  "figure": "figures/2.6.2.png",
+  "figures": [
+   "figures/2.6.2.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -5653,7 +5867,9 @@
    "한쪽만 돌출되어 있는 돌출 단순보의 돌출부 전체에 등분포하중 작용"
   ],
   "page": 75,
-  "figure": "figures/2.6.3.png",
+  "figures": [
+   "figures/2.6.3.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -5703,7 +5919,9 @@
    "한쪽만 돌출되어 있는 돌출 단순보의 돌출부 끝에 집중하중이 작용하고 지점A와 지점B 중앙에 집중하중 작용(지점과 하중 사이의 거리 동일)"
   ],
   "page": 76,
-  "figure": "figures/2.6.4.png",
+  "figures": [
+   "figures/2.6.4.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -5753,7 +5971,9 @@
    "한쪽만 돌출되어 있는 돌출 단순보의 돌출부 끝에 집중하중이 작용하고 지점A와 지점B 중앙에 집중하중 작용(지점과 하중 사이의 거리 다름)"
   ],
   "page": 76,
-  "figure": "figures/2.6.5.png",
+  "figures": [
+   "figures/2.6.5.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -5803,7 +6023,9 @@
    "한쪽만 돌출되어 있는 돌출 단순보의 지점A와 지점B 사이 전체에 등분포하중 작용하고, 돌출부 끝에 집중하중이 작용"
   ],
   "page": 76,
-  "figure": "figures/2.6.6.png",
+  "figures": [
+   "figures/2.6.6.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -5853,7 +6075,9 @@
    "한쪽만 돌출되어 있는 돌출 단순보 전체에 삼각분포하중 작용"
   ],
   "page": 77,
-  "figure": "figures/2.6.7.png",
+  "figures": [
+   "figures/2.6.7.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -5910,7 +6134,9 @@
    "양쪽이 돌출되어 있는 돌출 단순보 양 끝쪽에 집중하중 작용"
   ],
   "page": 77,
-  "figure": "figures/2.6.8.png",
+  "figures": [
+   "figures/2.6.8.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -5960,7 +6186,9 @@
    "양쪽이 돌출되어 있는 돌출 단순보 전체에 등분포하중 작용"
   ],
   "page": 77,
-  "figure": "figures/2.6.9.png",
+  "figures": [
+   "figures/2.6.9.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -6010,7 +6238,9 @@
    "일단고정 타단지지보의 중앙에 집중하중 P 작용"
   ],
   "page": 78,
-  "figure": "figures/2.7.1.png",
+  "figures": [
+   "figures/2.7.1.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -6053,7 +6283,9 @@
    "일단고정 타단지지보에서 힌지로부터 거리a에 집중하중 P 작용"
   ],
   "page": 78,
-  "figure": "figures/2.7.2.png",
+  "figures": [
+   "figures/2.7.2.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -6096,7 +6328,9 @@
    "일단고정 타단지지보의 3등분(l/3) 점에 같은 크기의 집중하중 P 작용하여 총 2개의 집중하중이 보에 작용"
   ],
   "page": 78,
-  "figure": "figures/2.7.3.png",
+  "figures": [
+   "figures/2.7.3.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -6139,7 +6373,9 @@
    "일단고정 타단지지보에서 두개의 집중하중이 작용하는데, 힌지로부터 집중하중이 재하되는 점까지의 거리와 고정단으로부터 집중하중이 재하되는 점까지의 거리가 동일한 경우"
   ],
   "page": 79,
-  "figure": "figures/2.7.4.png",
+  "figures": [
+   "figures/2.7.4.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -6182,7 +6418,9 @@
    "일단고정 타단지지보의 4등분(l/4) 점에 같은 크기의 집중하중 P 작용하여 총 3개의 집중하중이 보에 작용"
   ],
   "page": 79,
-  "figure": "figures/2.7.5.png",
+  "figures": [
+   "figures/2.7.5.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -6225,7 +6463,9 @@
    "일단고정 타단지지보 전체에 등분포하중 작용"
   ],
   "page": 79,
-  "figure": "figures/2.7.6.png",
+  "figures": [
+   "figures/2.7.6.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -6275,7 +6515,9 @@
    "일단고정 타단지지보 전체에 삼각분포하중 작용(고정단에서 힌지쪽으로 갈수록 크기가 작아지는 삼각분포하중)"
   ],
   "page": 80,
-  "figure": "figures/2.7.7.png",
+  "figures": [
+   "figures/2.7.7.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -6318,7 +6560,9 @@
    "일단고정 타단지지보 전체에 삼각분포하중 작용(힌지에서 고정단쪽으로 갈수록 크기가 작아지는 삼각분포하중)"
   ],
   "page": 80,
-  "figure": "figures/2.7.8.png",
+  "figures": [
+   "figures/2.7.8.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -6361,7 +6605,9 @@
    "일단고정 타단지지보의 힌지점으로부터 a만큼 떨어진 지점에서 거리 b만큼 삼각분포하중 작용(고정단에서 힌지쪽으로 갈수록 크기가 작아지는 삼각분포하중)"
   ],
   "page": 80,
-  "figure": "figures/2.7.9.png",
+  "figures": [
+   "figures/2.7.9.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -6404,7 +6650,9 @@
    "일단고정 타단지지보의 힌지점으로부터 a만큼 떨어진 지점에서 거리 b만큼 삼각분포하중 작용(힌지에서 고정단쪽으로 갈수록 크기가 작아지는 삼각분포하중)"
   ],
   "page": 81,
-  "figure": "figures/2.7.10.png",
+  "figures": [
+   "figures/2.7.10.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -6447,7 +6695,9 @@
    "일단고정 타단지지보 경간 L 전체에 이등변삼각형 분포하중 작용(삼각분포하중이 대칭으로 작용)"
   ],
   "page": 81,
-  "figure": "figures/2.7.11.png",
+  "figures": [
+   "figures/2.7.11.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -6490,7 +6740,9 @@
    "일단고정 타단지지보 경간 L에서 L/2마다 동일한 크기의 이등변삼각형 분포하중 작용(이등분 이등변삼각분포 하중)"
   ],
   "page": 81,
-  "figure": "figures/2.7.12.png",
+  "figures": [
+   "figures/2.7.12.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -6533,7 +6785,9 @@
    "일단고정 타단지지보의 힌지로부터 a만큼 떨어진 지점에서 거리 b만큼 등분포하중 작용"
   ],
   "page": 82,
-  "figure": "figures/2.7.13.png",
+  "figures": [
+   "figures/2.7.13.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -6576,7 +6830,9 @@
    "일단고정 타단지지보의 힌지에서 거리 a만큼 등분포하중 작용"
   ],
   "page": 82,
-  "figure": "figures/2.7.14.png",
+  "figures": [
+   "figures/2.7.14.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -6619,7 +6875,9 @@
    "일단고정 타단지지보의 양쪽에서 거리 a씩만큼 등분포하중 작용"
   ],
   "page": 82,
-  "figure": "figures/2.7.15.png",
+  "figures": [
+   "figures/2.7.15.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -6655,7 +6913,9 @@
    "일단고정 타단지지보에서 힌지에 모멘트 작용"
   ],
   "page": 83,
-  "figure": "figures/2.7.16.png",
+  "figures": [
+   "figures/2.7.16.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -6698,7 +6958,9 @@
    "일단고정 타단지지보의 힌지에서 거리 a만큼 떨어진 지점에 모멘트 작용"
   ],
   "page": 83,
-  "figure": "figures/2.7.17.png",
+  "figures": [
+   "figures/2.7.17.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -6741,7 +7003,9 @@
    "양단 고정보의 중앙에 집중하중 P 작용"
   ],
   "page": 84,
-  "figure": "figures/2.8.1.png",
+  "figures": [
+   "figures/2.8.1.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -6777,7 +7041,9 @@
    "양단 고정보의 3등분(l/3) 점에 집중하중 P 작용하여 총 2개의 집중하중이 보에 작용"
   ],
   "page": 84,
-  "figure": "figures/2.8.2.png",
+  "figures": [
+   "figures/2.8.2.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -6813,7 +7079,9 @@
    "양단 고정보의 4등분(l/4) 점에 집중하중 P 작용하여 총 3개의 집중하중이 보에 작용"
   ],
   "page": 84,
-  "figure": "figures/2.8.3.png",
+  "figures": [
+   "figures/2.8.3.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -6849,7 +7117,9 @@
    "양단 고정보의 5등분(l/5) 점에 집중하중 P 작용하여 총 4개의 집중하중이 보에 작용"
   ],
   "page": 85,
-  "figure": "figures/2.8.4.png",
+  "figures": [
+   "figures/2.8.4.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -6885,7 +7155,9 @@
    "양단 고정보의 끝단 A점에서 a만큼 떨어진 지점에 집중하중 P 작용"
   ],
   "page": 85,
-  "figure": "figures/2.8.5.png",
+  "figures": [
+   "figures/2.8.5.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -6921,7 +7193,9 @@
    "양단 고정보의 양측단에서 a만큼 떨어진 지점에 각각 집중하중 P씩 작용"
   ],
   "page": 85,
-  "figure": "figures/2.8.6.png",
+  "figures": [
+   "figures/2.8.6.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -6957,7 +7231,9 @@
    "양단 고정보의 n등분(l/n) 점에 집중하중 P 작용하여 총 (n-1)개의 집중하중이 보에 작용"
   ],
   "page": 86,
-  "figure": "figures/2.8.7.png",
+  "figures": [
+   "figures/2.8.7.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -6986,7 +7262,9 @@
    "양단고정보 전체에 등분포하중 작용"
   ],
   "page": 86,
-  "figure": "figures/2.8.8.png",
+  "figures": [
+   "figures/2.8.8.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -7029,7 +7307,9 @@
    "양단고정보 전체에 삼각분포하중 작용"
   ],
   "page": 86,
-  "figure": "figures/2.8.9.png",
+  "figures": [
+   "figures/2.8.9.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -7065,7 +7345,9 @@
    "양단 고정보 경간 L 전체에 이등변삼각형 분포하중 작용(삼각분포하중이 대칭으로 작용)"
   ],
   "page": 87,
-  "figure": "figures/2.8.10.png",
+  "figures": [
+   "figures/2.8.10.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -7115,7 +7397,9 @@
    "양단 고정보 경간 L에서 L/2마다 같은 크기의 이등변삼각형 분포하중 작용(이등분 이등변삼각분포 하중)"
   ],
   "page": 87,
-  "figure": "figures/2.8.11.png",
+  "figures": [
+   "figures/2.8.11.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -7165,7 +7449,9 @@
    "양단 고정보 경간 L에서 L/3마다 같은 크기의 이등변삼각형 분포하중 작용(삼등분 이등변삼각분포 하중)"
   ],
   "page": 87,
-  "figure": "figures/2.8.12.png",
+  "figures": [
+   "figures/2.8.12.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -7215,7 +7501,9 @@
    "양단 고정보 양쪽에서 거리 a씩만큼은 삼각분포하중이 작용하고 그 사이에 거리 b만큼 등분포하중 작용"
   ],
   "page": 88,
-  "figure": "figures/2.8.13.png",
+  "figures": [
+   "figures/2.8.13.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -7265,7 +7553,9 @@
    "양단 고정보 양쪽에서 거리 a씩 떨어진 지점에서 중앙에 거리 b만큼 등분포하중 작용"
   ],
   "page": 88,
-  "figure": "figures/2.8.14.png",
+  "figures": [
+   "figures/2.8.14.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -7301,7 +7591,9 @@
    "양단 고정보 양쪽끝단에서 거리 a씩만큼 등분포하중 작용 (총 거리 2a에 등분포하중 작용)"
   ],
   "page": 88,
-  "figure": "figures/2.8.15.png",
+  "figures": [
+   "figures/2.8.15.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -7344,7 +7636,9 @@
    "양단 고정보 양쪽끝단에서 거리 a씩 떨어진 지점에서 거리 b씩만큼 등분포하중 작용(중앙 작용x, 총 거리 2b에 등분포하중 작용)"
   ],
   "page": 89,
-  "figure": "figures/2.8.16.png",
+  "figures": [
+   "figures/2.8.16.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -7380,7 +7674,9 @@
    "양단 고정보의 끝단 A점에서 거리 a만큼 등분포하중 작용"
   ],
   "page": 89,
-  "figure": "figures/2.8.17.png",
+  "figures": [
+   "figures/2.8.17.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -7423,7 +7719,9 @@
    "양단 고정보의 고정단 A점에서 거리 a만큼 떨어진 지점부터 거리 b만큼 등분포하중 작용"
   ],
   "page": 89,
-  "figure": "figures/2.8.18.png",
+  "figures": [
+   "figures/2.8.18.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -7466,7 +7764,9 @@
    "양단 고정보의 고정단A에서 a만큼 떨어진 거리부터 고정단B에서 c만큼 떨어진 거리까지 이등변삼각형 분포하중 작용(좌우 끝점에서 고정단 까지의 거리는 서로 다름)"
   ],
   "page": 90,
-  "figure": "figures/2.8.19.png",
+  "figures": [
+   "figures/2.8.19.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -7509,7 +7809,9 @@
    "2스팬 연속보(지점A-B-C순)에서 지점 A와 지점B의 중앙에 집중하중 P 작용(지점 간 경간의 길이 l, 연속보의 총 길이 2l)"
   ],
   "page": 90,
-  "figure": "figures/2.9.1.png",
+  "figures": [
+   "figures/2.9.1.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -7552,7 +7854,9 @@
    "2스팬 연속보(지점A-B-C순)에서 각 지점과 지점 사이 중앙에 집중하중 P가 작용하여 총 두개의 집중하중이 작용(지점 간 경간의 길이 l, 연속보의 총 길이 2l)"
   ],
   "page": 90,
-  "figure": "figures/2.9.2.png",
+  "figures": [
+   "figures/2.9.2.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -7595,7 +7899,9 @@
    "2스팬 연속보(지점A-B-C순)에서 지점A와 지점B 사이에 등분포하중 작용(지점 간 경간의 길이 l, 연속보의 총 길이 2l)"
   ],
   "page": 91,
-  "figure": "figures/2.9.3.png",
+  "figures": [
+   "figures/2.9.3.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -7638,7 +7944,9 @@
    "2스팬 연속보(지점A-B-C순)의 2경간 전체에 등분포하중 작용(지점 간 경간의 길이 l, 연속보의 총 길이 2l)"
   ],
   "page": 91,
-  "figure": "figures/2.9.4.png",
+  "figures": [
+   "figures/2.9.4.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -7681,7 +7989,9 @@
    "2스팬 연속보(지점A-B-C순)에서 지점A와 지점B 사이에 등분포하중이 작용하고 지점B와 지점C 중앙에 집중하중이 작용(지점 간 경간의 길이 l, 연속보의 총 길이 2l)"
   ],
   "page": 91,
-  "figure": "figures/2.9.5.png",
+  "figures": [
+   "figures/2.9.5.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -7724,7 +8034,9 @@
    "2스팬 연속보(지점A-B-C순)에서 각 경간에서 3등분한 두 지점에 같은 크기의 집중하중이 작용하여 총 네개의 집중하중이 작용 (지점 간 경간의 길이 l, 연속보의 총 길이 2l)"
   ],
   "page": 92,
-  "figure": "figures/2.9.6.png",
+  "figures": [
+   "figures/2.9.6.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -7774,7 +8086,9 @@
    "2스팬 연속보(지점A-B-C순)에서 두 경간에 다른 크기의 등분포하중 작용 (지점 간 경간의 길이 l, 연속보의 총 길이 2l)"
   ],
   "page": 92,
-  "figure": "figures/2.9.7.png",
+  "figures": [
+   "figures/2.9.7.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -7824,7 +8138,9 @@
    "2스팬 연속보(지점A-B-C순)에서 단면 2차 모멘트의 크기와 길이가 다른 두 경간에 다른 크기의 등분포하중 작용 (경간AB에 작용하중<경간BC에 작용하중)"
   ],
   "page": 92,
-  "figure": "figures/2.9.8.png",
+  "figures": [
+   "figures/2.9.8.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -7874,7 +8190,9 @@
    "2스팬 연속보 2경간 전체에 등분포하중 작용"
   ],
   "page": 93,
-  "figure": "figures/2.10.1.1.png",
+  "figures": [
+   "figures/2.10.1.1.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -7903,7 +8221,9 @@
    "2스팬 연속보의 경간AB에 등분포하중 작용"
   ],
   "page": 93,
-  "figure": "figures/2.10.1.2.png",
+  "figures": [
+   "figures/2.10.1.2.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -7932,7 +8252,9 @@
    "2스팬 연속보에서 각 지점과 지점 사이 중간에 같은 크기의 집중하중 P가 작용하여 총 두개의 집중하중이 작용"
   ],
   "page": 93,
-  "figure": "figures/2.10.1.3.png",
+  "figures": [
+   "figures/2.10.1.3.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -7961,7 +8283,9 @@
    "2스팬 연속보의 경간 AB의 중앙에 집중하중 P가 작용"
   ],
   "page": 93,
-  "figure": "figures/2.10.1.4.png",
+  "figures": [
+   "figures/2.10.1.4.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -7990,7 +8314,9 @@
    "2스팬 연속보의 각 경간에서 3등분한 두 지점에 같은 크기의 집중하중이 작용하여 총 네개의 집중하중이 작용"
   ],
   "page": 93,
-  "figure": "figures/2.10.1.5.png",
+  "figures": [
+   "figures/2.10.1.5.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -8019,7 +8345,9 @@
    "2스팬 연속보의 경간AB에서 3등분한 두 지점에 같은 크기의 집중하중이 작용하여 총 2개의 집중하중이 작용"
   ],
   "page": 93,
-  "figure": "figures/2.10.1.6.png",
+  "figures": [
+   "figures/2.10.1.6.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -8048,7 +8376,9 @@
    "2스팬 연속보의 각 경간에서 4등분한 세 지점에 같은 크기의 집중하중이 작용하여 총 6개의 집중하중이 작용"
   ],
   "page": 93,
-  "figure": "figures/2.10.1.7.png",
+  "figures": [
+   "figures/2.10.1.7.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -8077,7 +8407,9 @@
    "2스팬 연속보의 경간AB에서 4등분한 세 지점에 같은 크기의 집중하중이 작용하여 총 3개의 집중하중이 작용"
   ],
   "page": 93,
-  "figure": "figures/2.10.1.8.png",
+  "figures": [
+   "figures/2.10.1.8.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -8106,7 +8438,9 @@
    "3스팬 연속보 3경간 전체에 등분포하중 작용"
   ],
   "page": 94,
-  "figure": "figures/2.10.2.1.png",
+  "figures": [
+   "figures/2.10.2.1.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -8135,7 +8469,9 @@
    "3스팬 연속보의 양쪽 경간(AB,CD)에 등분포하중이 작용"
   ],
   "page": 94,
-  "figure": "figures/2.10.2.2.png",
+  "figures": [
+   "figures/2.10.2.2.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -8164,7 +8500,9 @@
    "3스팬 연속보의 중간 경간(BC)에 등분포하중이 작용"
   ],
   "page": 94,
-  "figure": "figures/2.10.2.3.png",
+  "figures": [
+   "figures/2.10.2.3.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -8193,7 +8531,9 @@
    "3스팬 연속보의 경간AB와 경간BC에 등분포하중이 작용"
   ],
   "page": 94,
-  "figure": "figures/2.10.2.4.png",
+  "figures": [
+   "figures/2.10.2.4.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -8222,7 +8562,9 @@
    "3스팬 연속보의 끝경간CD에 등분포하중이 작용"
   ],
   "page": 94,
-  "figure": "figures/2.10.2.5.png",
+  "figures": [
+   "figures/2.10.2.5.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -8251,7 +8593,9 @@
    "3스팬 연속보의 각 경간의 중앙에 같은 크기의 집중하중이 작용하여 총 3개의 집중하중 작용"
   ],
   "page": 94,
-  "figure": "figures/2.10.2.6.png",
+  "figures": [
+   "figures/2.10.2.6.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -8280,7 +8624,9 @@
    "3스팬 연속보의 양쪽 경간인 경간 AB와 경간 CD 중앙에 같은 크기의 집중하중이 작용하여 총 2개의 집중하중 작용"
   ],
   "page": 94,
-  "figure": "figures/2.10.2.7.png",
+  "figures": [
+   "figures/2.10.2.7.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -8309,7 +8655,9 @@
    "3스팬 연속보의 중간경간BC의 중앙에 집중하중이 작용"
   ],
   "page": 95,
-  "figure": "figures/2.10.2.8.png",
+  "figures": [
+   "figures/2.10.2.8.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -8338,7 +8686,9 @@
    "3스팬 연속보의 경간AB와 경간BC의 중앙에 집중하중이 작용하여 총 2개의 집중하중 작용"
   ],
   "page": 95,
-  "figure": "figures/2.10.2.9.png",
+  "figures": [
+   "figures/2.10.2.9.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -8367,7 +8717,9 @@
    "3스팬 연속보의 끝 경간CD 중앙에 집중하중이 작용"
   ],
   "page": 95,
-  "figure": "figures/2.10.2.10.png",
+  "figures": [
+   "figures/2.10.2.10.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -8396,7 +8748,9 @@
    "3스팬 연속보의 각 경간에서 3등분한 두 지점에 같은 크기의 집중하중이 작용하여 총 6개의 집중하중이 작용"
   ],
   "page": 95,
-  "figure": "figures/2.10.2.11.png",
+  "figures": [
+   "figures/2.10.2.11.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -8425,7 +8779,9 @@
    "3스팬 연속보의 양쪽 경간AB와 경간CD에서 각각 3등분한 두 지점에 같은 크기의 집중하중이 작용하여 총 4개의 집중하중이 작용"
   ],
   "page": 95,
-  "figure": "figures/2.10.2.12.png",
+  "figures": [
+   "figures/2.10.2.12.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -8454,7 +8810,9 @@
    "3스팬 연속보의 중간경간BC에서 3등분한 두 지점에 같은 크기의 집중하중이 작용"
   ],
   "page": 95,
-  "figure": "figures/2.10.2.13.png",
+  "figures": [
+   "figures/2.10.2.13.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -8483,7 +8841,9 @@
    "3스팬 연속보의 경간AB와 경간BC에서 각각 3등분한 두 지점에 같은 크기의 집중하중이 작용하여 총 4개의 집중하중이 작용"
   ],
   "page": 95,
-  "figure": "figures/2.10.2.14.png",
+  "figures": [
+   "figures/2.10.2.14.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -8512,7 +8872,9 @@
    "3스팬 연속보의 경간CD에서 3등분한 두 지점에 같은 크기의 집중하중이 작용"
   ],
   "page": 96,
-  "figure": "figures/2.10.2.15.png",
+  "figures": [
+   "figures/2.10.2.15.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -8541,7 +8903,9 @@
    "3스팬 연속보의 각 경간에서 4등분한 세 지점에 같은 크기의 집중하중이 작용하여 총 9개의 집중하중이 작용"
   ],
   "page": 96,
-  "figure": "figures/2.10.2.16.png",
+  "figures": [
+   "figures/2.10.2.16.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -8570,7 +8934,9 @@
    "3스팬 연속보의 양쪽 경간AB와 경간CD에서 4등분한 세 지점에 같은 크기의 집중하중이 작용하여 총 6개의 집중하중이 작용"
   ],
   "page": 96,
-  "figure": "figures/2.10.2.17.png",
+  "figures": [
+   "figures/2.10.2.17.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -8599,7 +8965,9 @@
    "3스팬 연속보의 중간경간BC에서 4등분한 세 지점에 같은 크기의 집중하중이 작용"
   ],
   "page": 96,
-  "figure": "figures/2.10.2.18.png",
+  "figures": [
+   "figures/2.10.2.18.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -8628,7 +8996,9 @@
    "3스팬 연속보의 경간AB와 경간BC에서 4등분한 세 지점에 같은 크기의 집중하중이 작용하여 총 6개의 집중하중이 작용"
   ],
   "page": 96,
-  "figure": "figures/2.10.2.19.png",
+  "figures": [
+   "figures/2.10.2.19.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -8657,7 +9027,9 @@
    "3스팬 연속보의 끝경간CD에서 4등분한 세 지점에 같은 크기의 집중하중이 작용"
   ],
   "page": 96,
-  "figure": "figures/2.10.2.20.png",
+  "figures": [
+   "figures/2.10.2.20.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -8686,7 +9058,9 @@
    "4스팬 연속보 4경간 전체에 등분포하중 작용"
   ],
   "page": 97,
-  "figure": "figures/2.10.3.1.png",
+  "figures": [
+   "figures/2.10.3.1.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -8715,7 +9089,9 @@
    "4스팬 연속보의 경간AB와 경간CD에 등분포하중 작용"
   ],
   "page": 97,
-  "figure": "figures/2.10.3.2.png",
+  "figures": [
+   "figures/2.10.3.2.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -8744,7 +9120,9 @@
    "4스팬 연속보의 경간AB, BC, DE에 등분포하중 작용"
   ],
   "page": 97,
-  "figure": "figures/2.10.3.3.png",
+  "figures": [
+   "figures/2.10.3.3.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -8773,7 +9151,9 @@
    "4스팬 연속보의 경간CD에 등분포하중 작용"
   ],
   "page": 97,
-  "figure": "figures/2.10.3.4.png",
+  "figures": [
+   "figures/2.10.3.4.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -8802,7 +9182,9 @@
    "4스팬 연속보의 경간BC와 경간CD에 등분포하중 작용"
   ],
   "page": 97,
-  "figure": "figures/2.10.3.5.png",
+  "figures": [
+   "figures/2.10.3.5.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -8831,7 +9213,9 @@
    "4스팬 연속보의 경간AB와 경간DE에 등분포하중 작용"
   ],
   "page": 97,
-  "figure": "figures/2.10.3.6.png",
+  "figures": [
+   "figures/2.10.3.6.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -8860,7 +9244,9 @@
    "4스팬 연속보의 각 경간의 중앙에 같은 크기의 집중하중이 작용하여 총 4개의 집중하중 작용"
   ],
   "page": 98,
-  "figure": "figures/2.10.3.7.png",
+  "figures": [
+   "figures/2.10.3.7.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -8889,7 +9275,9 @@
    "4스팬 연속보의 각 경간AB와 경간CD의 중앙에 같은 크기의 집중하중이 작용"
   ],
   "page": 98,
-  "figure": "figures/2.10.3.8.png",
+  "figures": [
+   "figures/2.10.3.8.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -8918,7 +9306,9 @@
    "4스팬 연속보의 각 경간AB, BC, DE의 중앙에 같은 크기의 집중하중이 작용"
   ],
   "page": 98,
-  "figure": "figures/2.10.3.9.png",
+  "figures": [
+   "figures/2.10.3.9.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -8947,7 +9337,9 @@
    "4스팬 연속보의 경간CD의 중앙에 집중하중이 작용"
   ],
   "page": 98,
-  "figure": "figures/2.10.3.10.png",
+  "figures": [
+   "figures/2.10.3.10.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -8976,7 +9368,9 @@
    "4스팬 연속보의 각 경간BC,CD의 중앙에 같은 크기의 집중하중이 작용"
   ],
   "page": 98,
-  "figure": "figures/2.10.3.11.png",
+  "figures": [
+   "figures/2.10.3.11.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -9005,7 +9399,9 @@
    "4스팬 연속보의 각 경간AB,DE의 중앙에 같은 크기의 집중하중이 작용"
   ],
   "page": 98,
-  "figure": "figures/2.10.3.12.png",
+  "figures": [
+   "figures/2.10.3.12.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -9034,7 +9430,9 @@
    "4스팬 연속보의 각 경간에서 3등분한 두 지점에 같은 크기의 집중하중이 작용하여 총 8개의 집중하중이 작용"
   ],
   "page": 99,
-  "figure": "figures/2.10.3.13.png",
+  "figures": [
+   "figures/2.10.3.13.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -9063,7 +9461,9 @@
    "4스팬 연속보의 각 경간AB,CD에서 3등분한 두 지점에 같은 크기의 집중하중이 작용하여 총 4개의 집중하중이 작용"
   ],
   "page": 99,
-  "figure": "figures/2.10.3.14.png",
+  "figures": [
+   "figures/2.10.3.14.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -9092,7 +9492,9 @@
    "4스팬 연속보의 각 경간AB,BC,DE에서 3등분한 두 지점에 같은 크기의 집중하중이 작용하여 총 6개의 집중하중이 작용"
   ],
   "page": 99,
-  "figure": "figures/2.10.3.15.png",
+  "figures": [
+   "figures/2.10.3.15.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -9121,7 +9523,9 @@
    "4스팬 연속보의 경간CD에서 3등분한 두 지점에 같은 크기의 집중하중이 작용"
   ],
   "page": 99,
-  "figure": "figures/2.10.3.16.png",
+  "figures": [
+   "figures/2.10.3.16.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -9150,7 +9554,9 @@
    "4스팬 연속보의 각 경간BC,CD에서 3등분한 두 지점에 같은 크기의 집중하중이 작용하여 총 4개의 집중하중이 작용"
   ],
   "page": 99,
-  "figure": "figures/2.10.3.17.png",
+  "figures": [
+   "figures/2.10.3.17.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -9179,7 +9585,9 @@
    "4스팬 연속보의 각 경간AB,DE에서 3등분한 두 지점에 같은 크기의 집중하중이 작용하여 총 4개의 집중하중이 작용"
   ],
   "page": 100,
-  "figure": "figures/2.10.3.18.png",
+  "figures": [
+   "figures/2.10.3.18.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -9208,7 +9616,9 @@
    "4스팬 연속보의 각 경간에서 4등분한 세 지점에 같은 크기의 집중하중이 작용하여 총 12개의 집중하중이 작용"
   ],
   "page": 100,
-  "figure": "figures/2.10.3.19.png",
+  "figures": [
+   "figures/2.10.3.19.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -9237,7 +9647,9 @@
    "4스팬 연속보의 각 경간AB,CD에서 4등분한 세 지점에 같은 크기의 집중하중이 작용하여 총 6개의 집중하중이 작용"
   ],
   "page": 100,
-  "figure": "figures/2.10.3.20.png",
+  "figures": [
+   "figures/2.10.3.20.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -9266,7 +9678,9 @@
    "4스팬 연속보의 각 경간AB,BC,DE에서 4등분한 세 지점에 같은 크기의 집중하중이 작용하여 총 9개의 집중하중이 작용"
   ],
   "page": 100,
-  "figure": "figures/2.10.3.21.png",
+  "figures": [
+   "figures/2.10.3.21.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -9295,7 +9709,9 @@
    "4스팬 연속보의 경간CD에서 4등분한 세 지점에 같은 크기의 집중하중이 작용"
   ],
   "page": 100,
-  "figure": "figures/2.10.3.22.png",
+  "figures": [
+   "figures/2.10.3.22.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -9324,7 +9740,9 @@
    "4스팬 연속보의 각 경간BD,CD에서 4등분한 세 지점에 같은 크기의 집중하중이 작용하여 총 6개의 집중하중이 작용"
   ],
   "page": 101,
-  "figure": "figures/2.10.3.23.png",
+  "figures": [
+   "figures/2.10.3.23.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -9353,7 +9771,9 @@
    "4스팬 연속보의 각 경간AB,DE에서 4등분한 세 지점에 같은 크기의 집중하중이 작용하여 총 6개의 집중하중이 작용"
   ],
   "page": 101,
-  "figure": "figures/2.10.3.24.png",
+  "figures": [
+   "figures/2.10.3.24.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -9382,7 +9802,9 @@
    "5스팬 연속보 5경간 전체에 등분포하중 작용"
   ],
   "page": 101,
-  "figure": "figures/2.10.4.1.png",
+  "figures": [
+   "figures/2.10.4.1.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -9411,7 +9833,9 @@
    "5스팬 연속보의 각 경간에서 3등분한 두 지점에 같은 크기의 집중하중이 작용하여 총 10개의 집중하중이 작용"
   ],
   "page": 101,
-  "figure": "figures/2.10.4.3.png",
+  "figures": [
+   "figures/2.10.4.3.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -9440,7 +9864,9 @@
    "5스팬 연속보의 각 경간에서 4등분한 세 지점에 같은 크기의 집중하중이 작용하여 총 15개의 집중하중이 작용"
   ],
   "page": 102,
-  "figure": "figures/2.10.4.4.png",
+  "figures": [
+   "figures/2.10.4.4.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -9469,7 +9895,9 @@
    "5스팬 연속보의 경간AB, 경간 CD, 경간EF에 등분포하중 작용"
   ],
   "page": 102,
-  "figure": "figures/2.10.4.5.png",
+  "figures": [
+   "figures/2.10.4.5.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -9498,7 +9926,9 @@
    "5스팬 연속보의 각 경간AB, 경간CD, 경간EF의 중앙에 같은 크기의 집중하중이 작용"
   ],
   "page": 102,
-  "figure": "figures/2.10.4.6.png",
+  "figures": [
+   "figures/2.10.4.6.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -9527,7 +9957,9 @@
    "5스팬 연속보의 각 경간AB, 경간CD, 경간EF에서 3등분한 두 지점에 같은 크기의 집중하중이 작용하여 총 6개의 집중하중이 작용"
   ],
   "page": 102,
-  "figure": "figures/2.10.4.7.png",
+  "figures": [
+   "figures/2.10.4.7.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -9555,7 +9987,9 @@
    "불균등 2스팬 연속보"
   ],
   "page": 103,
-  "figure": "figures/2.11.1.png",
+  "figures": [
+   "figures/2.11.1.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -9576,7 +10010,9 @@
    "불균등 3스팬 연속보"
   ],
   "page": 103,
-  "figure": "figures/2.11.2.png",
+  "figures": [
+   "figures/2.11.2.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -9597,7 +10033,9 @@
    "불균등 4스팬 연속보"
   ],
   "page": 103,
-  "figure": "figures/2.11.3.png",
+  "figures": [
+   "figures/2.11.3.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -9618,7 +10056,9 @@
    "불균등 5스팬 연속보"
   ],
   "page": 103,
-  "figure": "figures/2.11.4.png",
+  "figures": [
+   "figures/2.11.4.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -9639,7 +10079,9 @@
    "경간에 등분포하중 작용"
   ],
   "page": 104,
-  "figure": "figures/1.png",
+  "figures": [
+   "figures/1.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -9660,7 +10102,9 @@
    "경간 중앙에 집중하중 작용"
   ],
   "page": 104,
-  "figure": "figures/2.png",
+  "figures": [
+   "figures/2.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -9681,7 +10125,9 @@
    "경간의 3등분점에 두개의 집중하중 작용"
   ],
   "page": 104,
-  "figure": "figures/3.png",
+  "figures": [
+   "figures/3.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -9702,7 +10148,9 @@
    "경간의 4등분점에 세개의 집중하중 작용"
   ],
   "page": 104,
-  "figure": "figures/4.png",
+  "figures": [
+   "figures/4.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -9723,7 +10171,9 @@
    "경간 AB와 경간 BC에 등분포하중 작용"
   ],
   "page": 104,
-  "figure": "figures/ABC 1-1.png",
+  "figures": [
+   "figures/ABC 1-1.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -9744,7 +10194,9 @@
    "경간 AB에 등분포하중 작용하고 경간 BC 중앙에 집중하중 작용"
   ],
   "page": 104,
-  "figure": "figures/ABC 1-2.png",
+  "figures": [
+   "figures/ABC 1-2.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -9765,7 +10217,9 @@
    "경간 AB에 등분포하중 작용하고 경간 BC의 3등분점에 2개의 집중하중 작용"
   ],
   "page": 104,
-  "figure": "figures/ABC 1-3.png",
+  "figures": [
+   "figures/ABC 1-3.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -9786,7 +10240,9 @@
    "경간 AB에 등분포하중 작용하고 경간 BC의 4등분점에 3개의 집중하중 작용"
   ],
   "page": 104,
-  "figure": "figures/ABC 1-4.png",
+  "figures": [
+   "figures/ABC 1-4.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -9807,7 +10263,9 @@
    "경간 BC와 경간 CD에 등분포하중 작용"
   ],
   "page": 104,
-  "figure": "figures/BCD 1-1.png",
+  "figures": [
+   "figures/BCD 1-1.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -9828,7 +10286,9 @@
    "경간 BC에 등분포하중 작용하고 경간 CD 중앙에 집중하중 작용"
   ],
   "page": 104,
-  "figure": "figures/BCD 1-2.png",
+  "figures": [
+   "figures/BCD 1-2.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -9849,7 +10309,9 @@
    "경간 BC에 등분포하중 작용하고 경간 CD의 3등분점에 2개의 집중하중 작용"
   ],
   "page": 104,
-  "figure": "figures/BCD 1-3.png",
+  "figures": [
+   "figures/BCD 1-3.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -9870,7 +10332,9 @@
    "경간 BC에 등분포하중 작용하고 경간 CD의 4등분점에 3개의 집중하중 작용"
   ],
   "page": 104,
-  "figure": "figures/BCD 1-4.png",
+  "figures": [
+   "figures/BCD 1-4.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -9891,7 +10355,9 @@
    "경간 CD와 경간 DE에 등분포하중 작용"
   ],
   "page": 104,
-  "figure": "figures/CDE 1-1.png",
+  "figures": [
+   "figures/CDE 1-1.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -9912,7 +10378,9 @@
    "경간CD에 등분포하중 작용하고 경간 DE중앙에 집중하중 작용"
   ],
   "page": 104,
-  "figure": "figures/CDE 1-2.png",
+  "figures": [
+   "figures/CDE 1-2.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -9933,7 +10401,9 @@
    "경간CD에 등분포하중 작용하고 경간 DE의 3등분점에 2개의 집중하중 작용"
   ],
   "page": 104,
-  "figure": "figures/CDE 1-3.png",
+  "figures": [
+   "figures/CDE 1-3.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -9954,7 +10424,9 @@
    "경간CD에 등분포하중 작용하고 경간 DE의 4등분점에 3개의 집중하중 작용"
   ],
   "page": 104,
-  "figure": "figures/CDE 1-4.png",
+  "figures": [
+   "figures/CDE 1-4.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -9975,7 +10447,9 @@
    "경간 DE와 경간 EF에 등분포하중 작용"
   ],
   "page": 104,
-  "figure": "figures/DEF 1-1.png",
+  "figures": [
+   "figures/DEF 1-1.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -9996,7 +10470,9 @@
    "경간 DE에 등분포하중 작용하고 경간 EF 중앙에 집중하중 작용"
   ],
   "page": 104,
-  "figure": "figures/DEF 1-2.png",
+  "figures": [
+   "figures/DEF 1-2.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -10017,7 +10493,9 @@
    "경간 DE에 등분포하중 작용하고 경간 EF의 3등분점에 2개의 집중하중 작용"
   ],
   "page": 104,
-  "figure": "figures/DEF 1-3.png",
+  "figures": [
+   "figures/DEF 1-3.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -10038,7 +10516,9 @@
    "경간 DE에 등분포하중 작용하고 경간 EF의 4등분점에 3개의 집중하중 작용"
   ],
   "page": 104,
-  "figure": "figures/DEF 1-4.png",
+  "figures": [
+   "figures/DEF 1-4.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -10059,7 +10539,9 @@
    "경간 AB의 중앙에 집중하중 작용하고 경간 BC에 등분포하중 작용"
   ],
   "page": 104,
-  "figure": "figures/ABC 2-1.png",
+  "figures": [
+   "figures/ABC 2-1.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -10080,7 +10562,9 @@
    "경간 AB와 경간 BC의 중앙에 집중하중 작용"
   ],
   "page": 104,
-  "figure": "figures/ABC 2-2.png",
+  "figures": [
+   "figures/ABC 2-2.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -10101,7 +10585,9 @@
    "경간 AB의 중앙에 집중하중 작용하고 경간 BC의 3등분점에 2개의 집중하중 작용"
   ],
   "page": 104,
-  "figure": "figures/ABC 2-3.png",
+  "figures": [
+   "figures/ABC 2-3.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -10122,7 +10608,9 @@
    "경간 AB의 중앙에 집중하중 작용하고 경간 BC의 4등분점에 3개의 집중하중 작용"
   ],
   "page": 104,
-  "figure": "figures/ABC 2-4.png",
+  "figures": [
+   "figures/ABC 2-4.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -10143,7 +10631,9 @@
    "경간 BC 중앙에 집중하중 작용하고 경간 CD에 등분포하중 작용"
   ],
   "page": 104,
-  "figure": "figures/BCD 2-1.png",
+  "figures": [
+   "figures/BCD 2-1.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -10164,7 +10654,9 @@
    "경간 BC와 경간 CD의 중앙에 집중하중 작용"
   ],
   "page": 104,
-  "figure": "figures/BCD 2-2.png",
+  "figures": [
+   "figures/BCD 2-2.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -10185,7 +10677,9 @@
    "경간 BC 중앙에 집중하중 작용하고 경간 CD의 3등분점에 2개의 집중하중 작용"
   ],
   "page": 104,
-  "figure": "figures/BCD 2-3.png",
+  "figures": [
+   "figures/BCD 2-3.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -10206,7 +10700,7 @@
    "경간 BC 중앙에 집중하중 작용하고 경간 CD의 4등분점에 3개의 집중하중 작용"
   ],
   "page": 104,
-  "figure": null,
+  "figures": [],
   "desc": null,
   "results": [
    {
@@ -10227,7 +10721,9 @@
    "경간 CD의 중앙에 집중하중 작용하고 경간  DE에 등분포하중 작용"
   ],
   "page": 104,
-  "figure": "figures/CDE 2-1.png",
+  "figures": [
+   "figures/CDE 2-1.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -10248,7 +10744,9 @@
    "경간 CD와 경간 DE의 중앙에 집중하중 작용"
   ],
   "page": 104,
-  "figure": "figures/CDE 2-2.png",
+  "figures": [
+   "figures/CDE 2-2.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -10269,7 +10767,9 @@
    "경간 CD의 중앙에 집중하중 작용하고 경간  DE의 3등분점에 2개의 집중하중 작용"
   ],
   "page": 104,
-  "figure": "figures/CDE 2-3.png",
+  "figures": [
+   "figures/CDE 2-3.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -10290,7 +10790,9 @@
    "경간 CD의 중앙에 집중하중 작용하고 경간  DE의 4등분점에 3개의 집중하중 작용"
   ],
   "page": 104,
-  "figure": "figures/CDE 2-4.png",
+  "figures": [
+   "figures/CDE 2-4.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -10311,7 +10813,9 @@
    "경간 DE의 중앙에 집중하중 작용하고 경간 EF에 등분포하중 작용"
   ],
   "page": 104,
-  "figure": "figures/DEF 2-1.png",
+  "figures": [
+   "figures/DEF 2-1.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -10332,7 +10836,9 @@
    "경간 DE와 경간 EF의 중앙에 집중하중 작용"
   ],
   "page": 104,
-  "figure": "figures/DEF 2-2.png",
+  "figures": [
+   "figures/DEF 2-2.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -10353,7 +10859,9 @@
    "경간 DE의 중앙에 집중하중 작용하고 경간 EF의 3등분점에 2개의 집중하중 작용"
   ],
   "page": 104,
-  "figure": "figures/DEF 2-3.png",
+  "figures": [
+   "figures/DEF 2-3.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -10374,7 +10882,9 @@
    "경간 DE의 중앙에 집중하중 작용하고 경간 EF의 4등분점에 3개의 집중하중 작용"
   ],
   "page": 104,
-  "figure": "figures/DEF 2-4.png",
+  "figures": [
+   "figures/DEF 2-4.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -10395,7 +10905,9 @@
    "경간 AB의 3등분점에 2개의 집중하중 작용하고 경간BC에 등분포하중 작용"
   ],
   "page": 104,
-  "figure": "figures/ABC 3-1.png",
+  "figures": [
+   "figures/ABC 3-1.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -10416,7 +10928,9 @@
    "경간 AB의 3등분점에 2개의 집중하중 작용하고 경간BC의 중앙에 집중하중 작용"
   ],
   "page": 104,
-  "figure": "figures/ABC 3-2.png",
+  "figures": [
+   "figures/ABC 3-2.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -10437,7 +10951,9 @@
    "경간 AB와 경간 BC의 3등분점에 각 2개씩의 집중하중 작용"
   ],
   "page": 104,
-  "figure": "figures/ABC 3-3.png",
+  "figures": [
+   "figures/ABC 3-3.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -10458,7 +10974,9 @@
    "경간 AB의 3등분점에 2개의 집중하중 작용하고 경간BC의 4등분점에 3개의 집중하중 작용"
   ],
   "page": 104,
-  "figure": "figures/ABC 3-4.png",
+  "figures": [
+   "figures/ABC 3-4.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -10479,7 +10997,9 @@
    "경간 BC의 3등분점에 2개의 집중하중 작용하고 경간CD에 등분포하중 작용"
   ],
   "page": 104,
-  "figure": "figures/BCD 3-1.png",
+  "figures": [
+   "figures/BCD 3-1.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -10500,7 +11020,9 @@
    "경간 BC의 3등분점에 2개의 집중하중 작용하고 경간CD의 중앙에 집중하중 작용"
   ],
   "page": 104,
-  "figure": "figures/BCD 3-2.png",
+  "figures": [
+   "figures/BCD 3-2.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -10521,7 +11043,9 @@
    "경간 BC와 경간 CD의 3등분점에 각 2개씩의 집중하중 작용"
   ],
   "page": 104,
-  "figure": "figures/BCD 3-3.png",
+  "figures": [
+   "figures/BCD 3-3.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -10542,7 +11066,9 @@
    "경간 BC의 3등분점에 2개의 집중하중 작용하고 경간CD의 4등분점에 3개의 집중하중 작용"
   ],
   "page": 104,
-  "figure": "figures/BCD 3-4.png",
+  "figures": [
+   "figures/BCD 3-4.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -10563,7 +11089,9 @@
    "경간 CD의 3등분점에 2개의 집중하중 작용하고 경간DE에 등분포하중 작용"
   ],
   "page": 104,
-  "figure": "figures/CDE 3-1.png",
+  "figures": [
+   "figures/CDE 3-1.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -10584,7 +11112,9 @@
    "경간 CD의 3등분점에 2개의 집중하중 작용하고 경간DE의 중앙에 집중하중 작용"
   ],
   "page": 104,
-  "figure": "figures/CDE 3-2.png",
+  "figures": [
+   "figures/CDE 3-2.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -10605,7 +11135,9 @@
    "경간 CD와 경간 DE의 3등분점에 각 2개씩의 집중하중 작용"
   ],
   "page": 104,
-  "figure": "figures/CDE 3-3.png",
+  "figures": [
+   "figures/CDE 3-3.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -10626,7 +11158,9 @@
    "경간 CD의 3등분점에 2개의 집중하중 작용하고 경간DE의 4등분점에 3개의 집중하중 작용"
   ],
   "page": 104,
-  "figure": "figures/CDE 3-4.png",
+  "figures": [
+   "figures/CDE 3-4.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -10647,7 +11181,9 @@
    "경간 DE의 3등분점에 2개의 집중하중 작용하고 경간EF에 등분포하중 작용"
   ],
   "page": 104,
-  "figure": "figures/DEF 3-1.png",
+  "figures": [
+   "figures/DEF 3-1.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -10668,7 +11204,9 @@
    "경간 DE의 3등분점에 2개의 집중하중 작용하고 경간EF의 중앙에 집중하중 작용"
   ],
   "page": 104,
-  "figure": "figures/DEF 3-2.png",
+  "figures": [
+   "figures/DEF 3-2.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -10689,7 +11227,9 @@
    "경간 DE와 경간 EF의 3등분점에 각 2개씩의 집중하중 작용"
   ],
   "page": 104,
-  "figure": "figures/DEF 3-3.png",
+  "figures": [
+   "figures/DEF 3-3.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -10710,7 +11250,9 @@
    "경간 DE의 3등분점에 2개의 집중하중 작용하고 경간EF의 4등분점에 3개의 집중하중 작용"
   ],
   "page": 104,
-  "figure": "figures/DEF 3-4.png",
+  "figures": [
+   "figures/DEF 3-4.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -10731,7 +11273,9 @@
    "경간 AB의 4등분점에 3개의 집중하중 작용하고 경간BC에 등분포하중 작용"
   ],
   "page": 104,
-  "figure": "figures/ABC 4-1.png",
+  "figures": [
+   "figures/ABC 4-1.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -10752,7 +11296,9 @@
    "경간 AB의 4등분점에 3개의 집중하중 작용하고 경간BC의 중앙에 집중하중 작용"
   ],
   "page": 104,
-  "figure": "figures/ABC 4-2.png",
+  "figures": [
+   "figures/ABC 4-2.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -10773,7 +11319,9 @@
    "경간 AB의 4등분점에 3개의 집중하중 작용하고 경간BC의 3등분점에 2개의 집중하중 작용"
   ],
   "page": 104,
-  "figure": "figures/ABC 4-3.png",
+  "figures": [
+   "figures/ABC 4-3.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -10794,7 +11342,9 @@
    "경간 AB와 경간 BC의 4등분점에 각 3개씩의 집중하중 작용"
   ],
   "page": 104,
-  "figure": "figures/ABC 4-4.png",
+  "figures": [
+   "figures/ABC 4-4.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -10815,7 +11365,9 @@
    "경간 BC의 4등분점에 3개의 집중하중 작용하고 경간CD에 등분포하중 작용"
   ],
   "page": 104,
-  "figure": "figures/BCD 4-1.png",
+  "figures": [
+   "figures/BCD 4-1.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -10836,7 +11388,9 @@
    "경간 BC의 4등분점에 3개의 집중하중 작용하고 경간CD의 중앙에 집중하중 작용"
   ],
   "page": 104,
-  "figure": "figures/BCD 4-2.png",
+  "figures": [
+   "figures/BCD 4-2.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -10857,7 +11411,9 @@
    "경간 BC의 4등분점에 3개의 집중하중 작용하고 경간CD의 3등분점에 2개의 집중하중 작용"
   ],
   "page": 104,
-  "figure": "figures/BCD 4-3.png",
+  "figures": [
+   "figures/BCD 4-3.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -10878,7 +11434,9 @@
    "경간 BC와 경간 CD의 4등분점에 각 3개씩의 집중하중 작용"
   ],
   "page": 104,
-  "figure": "figures/BCD 4-4.png",
+  "figures": [
+   "figures/BCD 4-4.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -10899,7 +11457,9 @@
    "경간 CD의 4등분점에 3개의 집중하중 작용하고 경간DE에 등분포하중 작용"
   ],
   "page": 104,
-  "figure": "figures/CDE 4-1.png",
+  "figures": [
+   "figures/CDE 4-1.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -10920,7 +11480,9 @@
    "경간 CD의 4등분점에 3개의 집중하중 작용하고 경간DE의 중앙에 집중하중 작용"
   ],
   "page": 104,
-  "figure": "figures/CDE 4-2.png",
+  "figures": [
+   "figures/CDE 4-2.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -10941,7 +11503,9 @@
    "경간 CD의 4등분점에 3개의 집중하중 작용하고 경간DE의 3등분점에 2개의 집중하중 작용"
   ],
   "page": 104,
-  "figure": "figures/CDE 4-3.png",
+  "figures": [
+   "figures/CDE 4-3.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -10962,7 +11526,9 @@
    "경간 CD와 경간 DE의 4등분점에 각 3개씩의 집중하중 작용"
   ],
   "page": 104,
-  "figure": "figures/CDE 4-4.png",
+  "figures": [
+   "figures/CDE 4-4.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -10983,7 +11549,9 @@
    "경간 DE의 4등분점에 3개의 집중하중 작용하고 경간EF에 등분포하중 작용"
   ],
   "page": 104,
-  "figure": "figures/DEF 4-1.png",
+  "figures": [
+   "figures/DEF 4-1.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -11004,7 +11572,9 @@
    "경간 DE의 4등분점에 3개의 집중하중 작용하고 경간EF의 중앙에 집중하중 작용"
   ],
   "page": 104,
-  "figure": "figures/DEF 4-2.png",
+  "figures": [
+   "figures/DEF 4-2.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -11025,7 +11595,9 @@
    "경간 DE의 4등분점에 3개의 집중하중 작용하고 경간EF의 3등분점에 2개의 집중하중 작용"
   ],
   "page": 104,
-  "figure": "figures/DEF 4-3.png",
+  "figures": [
+   "figures/DEF 4-3.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -11046,7 +11618,9 @@
    "경간 DE와 경간 EF의 4등분점에 각 3개씩의 집중하중 작용"
   ],
   "page": 104,
-  "figure": "figures/DEF 4-4.png",
+  "figures": [
+   "figures/DEF 4-4.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -11067,7 +11641,7 @@
    "불균등 연속보의 하중 조합에 따른 N 산출. 이를 통해 Sheet[2.11 불균등 스팬 연속보의 모멘트 계산공식]의 모멘트 산출"
   ],
   "page": null,
-  "figure": null,
+  "figures": [],
   "desc": null,
   "results": [
    {
@@ -11089,7 +11663,9 @@
    "문형 라멘 상부 보에 등분포하중 작용"
   ],
   "page": 145,
-  "figure": "figures/3.6.1.png",
+  "figures": [
+   "figures/3.6.1.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -11125,7 +11701,9 @@
    "문형 라멘 상부 보에서 절점B으로부터 a만큼 떨어진 거리에 하나의 집중하중 작용"
   ],
   "page": 145,
-  "figure": "figures/3.6.2.png",
+  "figures": [
+   "figures/3.6.2.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -11161,7 +11739,9 @@
    "문형 라멘 상부 보 중심에 집중하중 작용 (왼쪽 지점에서 시계방향으로 A-B-C-D순)"
   ],
   "page": 145,
-  "figure": "figures/3.6.3.png",
+  "figures": [
+   "figures/3.6.3.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -11197,7 +11777,9 @@
    "문형 라멘 상부 보에 양쪽 절점에서 a만큼 떨어진 거리에 두개의 집중하중 작용(대칭)"
   ],
   "page": 145,
-  "figure": "figures/3.6.4.png",
+  "figures": [
+   "figures/3.6.4.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -11233,7 +11815,9 @@
    "문형 라멘의 양쪽 기둥에 크기가 다른 등분포하중 작용"
   ],
   "page": 146,
-  "figure": "figures/3.6.5.png",
+  "figures": [
+   "figures/3.6.5.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -11269,7 +11853,9 @@
    "문형 라멘의 절점B에 수평방향으로 집중하중 작용"
   ],
   "page": 146,
-  "figure": "figures/3.6.6.png",
+  "figures": [
+   "figures/3.6.6.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -11305,7 +11891,9 @@
    "문형 라멘의 지점A에서 기둥으로 a만큼 떨어진 지점에 수평방향으로 집중하중 작용"
   ],
   "page": 146,
-  "figure": "figures/3.6.7.png",
+  "figures": [
+   "figures/3.6.7.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -11341,7 +11929,9 @@
    "문형 라멘의 양쪽 지점에서부터 기둥으로 a만큼 떨어진 지점에 선반이 존재하고 이 선반에 수직방향으로 크기가 다른 집중하중이 작용"
   ],
   "page": 146,
-  "figure": "figures/3.6.8.png",
+  "figures": [
+   "figures/3.6.8.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -11377,7 +11967,9 @@
    "이형 문형 라멘 상부에 등분포하중 작용"
   ],
   "page": 147,
-  "figure": "figures/3.7.1.png",
+  "figures": [
+   "figures/3.7.1.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -11413,7 +12005,9 @@
    "이형 문형 라멘 상부 보에서 a만큼 떨어진 거리에 하나의 집중하중이 수직으로 작용"
   ],
   "page": 147,
-  "figure": "figures/3.7.2.png",
+  "figures": [
+   "figures/3.7.2.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -11449,7 +12043,9 @@
    "이형 문형 라멘 왼쪽 기둥에 등분포하중 작용"
   ],
   "page": 147,
-  "figure": "figures/3.7.3.png",
+  "figures": [
+   "figures/3.7.3.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -11485,7 +12081,9 @@
    "이형 문형 라멘 오른쪽 기둥에 등분포하중 작용"
   ],
   "page": 147,
-  "figure": "figures/3.7.4.png",
+  "figures": [
+   "figures/3.7.4.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -11521,7 +12119,9 @@
    "이형 문형 라멘의 두 기둥 길이 차만큼 BC에 수평으로 등분포하중 작용"
   ],
   "page": 148,
-  "figure": "figures/3.7.5.png",
+  "figures": [
+   "figures/3.7.5.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -11557,7 +12157,9 @@
    "이형 문형 라멘의 절점B에 수평으로 집중하중 작용"
   ],
   "page": 148,
-  "figure": "figures/3.7.6.png",
+  "figures": [
+   "figures/3.7.6.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -11593,7 +12195,9 @@
    "이형 문형 라멘의 지점A에서부터 기둥으로 a만큼 떨어진 지점에 선반이 존재하고 이 선반에 수직방향으로 집중하중이 작용"
   ],
   "page": 148,
-  "figure": "figures/3.7.7.png",
+  "figures": [
+   "figures/3.7.7.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -11629,7 +12233,9 @@
    "이형 문형 라멘의 왼쪽 기둥에서 지점A로부터 a떨어진 지점에 집중하중 작용"
   ],
   "page": 148,
-  "figure": "figures/3.7.8.png",
+  "figures": [
+   "figures/3.7.8.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -11665,7 +12271,9 @@
    "산형 라멘 상부에 수직으로 등분포하중 작용"
   ],
   "page": 149,
-  "figure": "figures/3.8.1.png",
+  "figures": [
+   "figures/3.8.1.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -11701,7 +12309,9 @@
    "산형 라멘 상부의 l/2(지점A에서 C까지의 수평거리)에 수직으로 등분포하중 작용"
   ],
   "page": 149,
-  "figure": "figures/3.8.2.png",
+  "figures": [
+   "figures/3.8.2.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -11737,7 +12347,9 @@
    "산형 라멘 상부 보에서 a만큼 떨어진 지점에 집중하중이 수직으로 작용"
   ],
   "page": 149,
-  "figure": "figures/3.8.3.png",
+  "figures": [
+   "figures/3.8.3.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -11773,7 +12385,9 @@
    "산형 라멘 상부 보의 절점C에 집중하중 작용"
   ],
   "page": 149,
-  "figure": "figures/3.8.4.png",
+  "figures": [
+   "figures/3.8.4.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -11809,7 +12423,9 @@
    "산형 라멘 상부 보의 4등분 지점에 같은 크기의 집중하중이 3개 작용하고 양쪽 접합부에는 그 크기의 절반이 작용"
   ],
   "page": 150,
-  "figure": "figures/3.8.5.png",
+  "figures": [
+   "figures/3.8.5.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -11845,7 +12461,9 @@
    "산형 라멘의 양쪽 기둥에 크기가 다른 등분포하중 작용"
   ],
   "page": 150,
-  "figure": "figures/3.8.6.png",
+  "figures": [
+   "figures/3.8.6.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -11874,7 +12492,9 @@
    "산형 라멘에서 크기가 다른 두개의 등분포하중이 산 중심까지의 수직거리와 기둥의 길이 차이만큼 산형 보 양쪽에서 바깥방향으로 수평으로 작용"
   ],
   "page": 150,
-  "figure": "figures/3.8.7.png",
+  "figures": [
+   "figures/3.8.7.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -11903,7 +12523,9 @@
    "산형 라멘의 절점C를 기준으로 양쪽으로 다른 크기의 등분포하중이 상향으로 작용"
   ],
   "page": 150,
-  "figure": "figures/3.8.8.png",
+  "figures": [
+   "figures/3.8.8.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -11932,7 +12554,9 @@
    "산형 라멘에서 양쪽 기둥은 수평으로 등분포하중이 작용하고 산형 보 양쪽에는 수직과 수평으로 모두 등분포하중이 작용"
   ],
   "page": 151,
-  "figure": "figures/3.8.9.png",
+  "figures": [
+   "figures/3.8.9.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -11968,7 +12592,9 @@
    "산형 라멘의 절점B에 수평으로 집중하중 작용"
   ],
   "page": 151,
-  "figure": "figures/3.8.10.png",
+  "figures": [
+   "figures/3.8.10.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -12004,7 +12630,9 @@
    "산형 라멘의 지점A에서부터 기둥으로 a만큼 떨어진 지점에 선반이 존재하고 이 선반에 수직방향으로 집중하중이 작용"
   ],
   "page": 151,
-  "figure": "figures/3.8.11.png",
+  "figures": [
+   "figures/3.8.11.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -12040,7 +12668,9 @@
    "산형 라멘의 지점A에서부터 기둥으로 a만큼 떨어진 지점에 수평으로 집중하중이 작용"
   ],
   "page": 151,
-  "figure": "figures/3.8.12.png",
+  "figures": [
+   "figures/3.8.12.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -12076,7 +12706,9 @@
    "3힌지 산형 라멘 상부에 수직으로 등분포하중 작용"
   ],
   "page": 152,
-  "figure": "figures/3.9.1.png",
+  "figures": [
+   "figures/3.9.1.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -12112,7 +12744,9 @@
    "3힌지 산형 라멘 상부의 l/2(지점A에서 힌지C까지의 수평거리)에 수직으로 등분포하중 작용"
   ],
   "page": 152,
-  "figure": "figures/3.9.2.png",
+  "figures": [
+   "figures/3.9.2.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -12148,7 +12782,9 @@
    "3힌지 산형 라멘 상부 보의 힌지 C점에 집중하중 작용"
   ],
   "page": 152,
-  "figure": "figures/3.9.3.png",
+  "figures": [
+   "figures/3.9.3.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -12184,7 +12820,9 @@
    "3힌지 산형 라멘 상부 보에서 a만큼 떨어진 지점에 집중하중이 수직으로 작용"
   ],
   "page": 152,
-  "figure": "figures/3.9.4.png",
+  "figures": [
+   "figures/3.9.4.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -12220,7 +12858,9 @@
    "3힌지 산형 라멘 기둥AB에 수평방향으로 등분포하중 작용"
   ],
   "page": 153,
-  "figure": "figures/3.9.5.png",
+  "figures": [
+   "figures/3.9.5.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -12256,7 +12896,9 @@
    "3힌지 산형 라멘에서 산 중심까지의 수직거리와 기둥의 길이의 차이만큼 BC에 등분포하중이 수평으로 작용"
   ],
   "page": 153,
-  "figure": "figures/3.9.6.png",
+  "figures": [
+   "figures/3.9.6.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -12292,7 +12934,9 @@
    "3힌지 산형 라멘의 절점B에 수평으로 집중하중 작용"
   ],
   "page": 153,
-  "figure": "figures/3.9.7.png",
+  "figures": [
+   "figures/3.9.7.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -12328,7 +12972,9 @@
    "3힌지 산형 라멘의 지점A에서부터 기둥으로 a만큼 떨어진 지점에 수평으로 집중하중이 작용"
   ],
   "page": 153,
-  "figure": "figures/3.9.8.png",
+  "figures": [
+   "figures/3.9.8.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -12364,7 +13010,9 @@
    "아치형 라멘 상부에 수직으로 등분포하중 작용"
   ],
   "page": 154,
-  "figure": "figures/3.10.1.png",
+  "figures": [
+   "figures/3.10.1.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -12400,7 +13048,9 @@
    "아치형 라멘 상부의 l/2(지점A에서 지점C까지의 수평거리)에 수직으로 등분포하중 작용"
   ],
   "page": 154,
-  "figure": "figures/3.10.2.png",
+  "figures": [
+   "figures/3.10.2.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -12436,7 +13086,9 @@
    "아치형 라멘 상부 보에서 a만큼 떨어진 지점에 집중하중이 수직으로 작용"
   ],
   "page": 154,
-  "figure": "figures/3.10.3.png",
+  "figures": [
+   "figures/3.10.3.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -12472,7 +13124,9 @@
    "아치형 라멘의 양쪽 기둥에 크기가 다른 등분포하중 작용"
   ],
   "page": 154,
-  "figure": "figures/3.10.4.png",
+  "figures": [
+   "figures/3.10.4.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -12501,7 +13155,9 @@
    "아치형 라멘에서 크기가 다른 네개의 등분포하중이 아치 부분의 수직거리만큼 아치형 보 양쪽에서 바깥방향으로 두개씩 수평으로 작용"
   ],
   "page": 155,
-  "figure": "figures/3.10.5.png",
+  "figures": [
+   "figures/3.10.5.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -12530,7 +13186,9 @@
    "아치형 라멘에서 아치 바깥으로 크기가 다른 4개의 등분포하중이 수직방향으로 l에 작용"
   ],
   "page": 155,
-  "figure": "figures/3.10.6.png",
+  "figures": [
+   "figures/3.10.6.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -12559,7 +13217,9 @@
    "아치형 라멘의 모든 방면에서 등분포하중 작용"
   ],
   "page": 155,
-  "figure": "figures/3.10.7.png",
+  "figures": [
+   "figures/3.10.7.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -12595,7 +13255,9 @@
    "아치형 라멘의 절점B에 수평으로 집중하중 작용"
   ],
   "page": 155,
-  "figure": "figures/3.10.8.png",
+  "figures": [
+   "figures/3.10.8.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -12631,7 +13293,9 @@
    "2스팬 단층라멘 상부 전체에 등분포하중이 작용"
   ],
   "page": 164,
-  "figure": "figures/3.15.1.png",
+  "figures": [
+   "figures/3.15.1.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -12667,7 +13331,9 @@
    "2스팬 단층라멘 상부의 왼쪽 1스팬에 등분포하중이 작용"
   ],
   "page": 164,
-  "figure": "figures/3.15.2.png",
+  "figures": [
+   "figures/3.15.2.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -12703,7 +13369,9 @@
    "2스팬 단층라멘 상부에 크기가 다른 두개의 등분포하중이 각 스팬에 작용"
   ],
   "page": 165,
-  "figure": "figures/3.15.3.png",
+  "figures": [
+   "figures/3.15.3.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -12739,7 +13407,9 @@
    "2스팬 단층라멘 상부의 양쪽에서 거리가 수평방향으로 a만큼 떨어진 지점에 크기가 같은 집중하중 작용"
   ],
   "page": 165,
-  "figure": "figures/3.15.4.png",
+  "figures": [
+   "figures/3.15.4.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -12775,7 +13445,9 @@
    "2스팬 단층라멘 좌측 스팬의 상부에 절점D로부터 수평방향으로 a만큼 떨어진 지점에 집중하중 작용"
   ],
   "page": 166,
-  "figure": "figures/3.15.5.png",
+  "figures": [
+   "figures/3.15.5.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -12811,7 +13483,9 @@
    "2스팬 단층라멘 좌측 스팬의 상부 절점D에 수평방향으로 집중하중 작용"
   ],
   "page": 166,
-  "figure": "figures/3.15.6.png",
+  "figures": [
+   "figures/3.15.6.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -12847,7 +13521,9 @@
    "2스팬 단층라멘 좌측 스팬의 지점A에서 수직으로 a만큼 떨어진 기둥(AD)부분에 수평방향으로 집중하중 작용"
   ],
   "page": 167,
-  "figure": "figures/3.15.7.png",
+  "figures": [
+   "figures/3.15.7.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -12883,7 +13559,9 @@
    "2스팬 단층라멘 좌측 스팬의 기둥(AD)에 수평방향으로 등분포하중 작용"
   ],
   "page": 167,
-  "figure": "figures/3.15.8.png",
+  "figures": [
+   "figures/3.15.8.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -12919,7 +13597,9 @@
    "3스팬 단층라멘 상부 전체에 등분포하중이 작용"
   ],
   "page": 168,
-  "figure": "figures/3.16.1.png",
+  "figures": [
+   "figures/3.16.1.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -12955,7 +13635,9 @@
    "3스팬 단층라멘의 중간스팬 상부에 등분포하중이 작용"
   ],
   "page": 168,
-  "figure": "figures/3.16.2.png",
+  "figures": [
+   "figures/3.16.2.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -12991,7 +13673,9 @@
    "3스팬 단층라멘의 양쪽 두 스팬 상부에 같은 크기의 등분포하중이 작용"
   ],
   "page": 168,
-  "figure": "figures/3.16.3.png",
+  "figures": [
+   "figures/3.16.3.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -13027,7 +13711,9 @@
    "3스팬 단층라멘의 중간스팬 상부 중앙에 집중하중 작용"
   ],
   "page": 169,
-  "figure": "figures/3.16.4.png",
+  "figures": [
+   "figures/3.16.4.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -13063,7 +13749,9 @@
    "3스팬 단층라멘의 양쪽 두 스팬 상부 중앙에 같은 크기의 집중하중 작용"
   ],
   "page": 169,
-  "figure": "figures/3.16.5.png",
+  "figures": [
+   "figures/3.16.5.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -13099,7 +13787,9 @@
    "3스팬 단층라멘 좌측 스팬의 상부 절점E에 수평방향으로 집중하중 작용"
   ],
   "page": 169,
-  "figure": "figures/3.16.6.png",
+  "figures": [
+   "figures/3.16.6.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -13135,7 +13825,9 @@
    "3스팬 단층라멘 좌측 스팬기둥(AE)에 수평방향으로 등분포하중 작용"
   ],
   "page": 170,
-  "figure": "figures/3.16.7.png",
+  "figures": [
+   "figures/3.16.7.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -13171,7 +13863,9 @@
    "3스팬 단층라멘 좌측 스팬의 지점A에서 수직으로 a만큼 떨어진 기둥(AE)부분에 수평방향으로 집중하중 작용"
   ],
   "page": 170,
-  "figure": "figures/3.16.8.png",
+  "figures": [
+   "figures/3.16.8.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -13206,7 +13900,16 @@
    "문형 라멘"
   ],
   "page": "145~146",
-  "figure": null,
+  "figures": [
+   "figures/3.6.1.png",
+   "figures/3.6.2.png",
+   "figures/3.6.3.png",
+   "figures/3.6.4.png",
+   "figures/3.6.5.png",
+   "figures/3.6.6.png",
+   "figures/3.6.7.png",
+   "figures/3.6.8.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -13227,7 +13930,16 @@
    "이형 문형 라멘"
   ],
   "page": "147~148",
-  "figure": null,
+  "figures": [
+   "figures/3.7.1.png",
+   "figures/3.7.2.png",
+   "figures/3.7.3.png",
+   "figures/3.7.4.png",
+   "figures/3.7.5.png",
+   "figures/3.7.6.png",
+   "figures/3.7.7.png",
+   "figures/3.7.8.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -13269,7 +13981,20 @@
    "산형 라멘"
   ],
   "page": "149~151",
-  "figure": null,
+  "figures": [
+   "figures/3.8.1.png",
+   "figures/3.8.2.png",
+   "figures/3.8.3.png",
+   "figures/3.8.4.png",
+   "figures/3.8.5.png",
+   "figures/3.8.6.png",
+   "figures/3.8.7.png",
+   "figures/3.8.8.png",
+   "figures/3.8.9.png",
+   "figures/3.8.10.png",
+   "figures/3.8.11.png",
+   "figures/3.8.12.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -13297,7 +14022,16 @@
    "아치형 라멘"
   ],
   "page": "154~155",
-  "figure": null,
+  "figures": [
+   "figures/3.10.1.png",
+   "figures/3.10.2.png",
+   "figures/3.10.3.png",
+   "figures/3.10.4.png",
+   "figures/3.10.5.png",
+   "figures/3.10.6.png",
+   "figures/3.10.7.png",
+   "figures/3.10.8.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -13339,7 +14073,16 @@
    "2스팬 단층라멘"
   ],
   "page": "164~167",
-  "figure": null,
+  "figures": [
+   "figures/3.15.1.png",
+   "figures/3.15.2.png",
+   "figures/3.15.3.png",
+   "figures/3.15.4.png",
+   "figures/3.15.5.png",
+   "figures/3.15.6.png",
+   "figures/3.15.7.png",
+   "figures/3.15.8.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -13375,7 +14118,9 @@
    "문형 라멘 상부 보에 등분포하중 작용"
   ],
   "page": 177,
-  "figure": "figures/3.21.1.png",
+  "figures": [
+   "figures/3.21.1.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -13411,7 +14156,9 @@
    "문형 라멘 상부 보에서 절점B으로부터 a만큼 떨어진 거리에 하나의 집중하중 작용"
   ],
   "page": 177,
-  "figure": "figures/3.21.2.png",
+  "figures": [
+   "figures/3.21.2.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -13447,7 +14194,9 @@
    "문형 라멘 상부 보 중심에 집중하중 작용"
   ],
   "page": 177,
-  "figure": "figures/3.21.3.png",
+  "figures": [
+   "figures/3.21.3.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -13483,7 +14232,9 @@
    "문형 라멘 상부 보에 삼각분포하중 작용"
   ],
   "page": 178,
-  "figure": "figures/3.21.4.png",
+  "figures": [
+   "figures/3.21.4.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -13519,7 +14270,9 @@
    "문형 라멘 왼쪽 기둥(AB)에 등분포하중 작용"
   ],
   "page": 178,
-  "figure": "figures/3.21.5.png",
+  "figures": [
+   "figures/3.21.5.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -13555,7 +14308,9 @@
    "문형 라멘 왼쪽 절점B에 수평방향으로 집중하중 작용"
   ],
   "page": 178,
-  "figure": "figures/3.21.6.png",
+  "figures": [
+   "figures/3.21.6.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -13591,7 +14346,9 @@
    "문형 라멘 왼쪽 기둥의 지점A에서 a만큼 떨어진 지점에 선반이 존재하고 이 선반에 수직방향으로 집중하중이 작용"
   ],
   "page": 179,
-  "figure": "figures/3.21.7.png",
+  "figures": [
+   "figures/3.21.7.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -13627,7 +14384,9 @@
    "문형 라멘 왼쪽 기둥의 지점A에서 a만큼 떨어진 지점에 수평방향으로 집중하중이 작용"
   ],
   "page": 179,
-  "figure": "figures/3.21.8.png",
+  "figures": [
+   "figures/3.21.8.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -13663,7 +14422,9 @@
    "문형 라멘 상부 보의 3등분 지점 두 곳에 같은크기의 집중하중 작용"
   ],
   "page": 179,
-  "figure": "figures/3.21.9.png",
+  "figures": [
+   "figures/3.21.9.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -13699,7 +14460,9 @@
    "2스팬 단층라멘 상부 전체에 등분포하중 작용"
   ],
   "page": 180,
-  "figure": "figures/3.22.1.png",
+  "figures": [
+   "figures/3.22.1.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -13735,7 +14498,9 @@
    "2스팬 단층라멘 왼쪽 1스팬 상부에 등분포하중 작용"
   ],
   "page": 180,
-  "figure": "figures/3.22.2.png",
+  "figures": [
+   "figures/3.22.2.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -13771,7 +14536,9 @@
    "2스팬 단층라멘 왼쪽 기둥(AD)에 등분포하중 작용"
   ],
   "page": 181,
-  "figure": "figures/3.22.3.png",
+  "figures": [
+   "figures/3.22.3.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -13807,7 +14574,9 @@
    "2스팬 단층라멘 왼쪽 절점D에 수평방향으로 집중하중 작용"
   ],
   "page": 181,
-  "figure": "figures/3.22.4.png",
+  "figures": [
+   "figures/3.22.4.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -13843,7 +14612,9 @@
    "3스팬 단층라멘 상부 전체에 등분포하중 작용"
   ],
   "page": 182,
-  "figure": "figures/3.23.1.png",
+  "figures": [
+   "figures/3.23.1.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -13879,7 +14650,9 @@
    "3스팬 단층라멘 왼쪽 절점D에 수평방향으로 집중하중 작용"
   ],
   "page": 182,
-  "figure": "figures/3.23.2.png",
+  "figures": [
+   "figures/3.23.2.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -13915,7 +14688,9 @@
    "산형 아치 경간의 l/2에 수직으로 등분포하중 작용"
   ],
   "page": 196,
-  "figure": "figures/3.27.1.png",
+  "figures": [
+   "figures/3.27.1.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -13958,7 +14733,9 @@
    "산형 아치 경간 전체에 수직으로 등분포하중 작용"
   ],
   "page": 196,
-  "figure": "figures/3.27.2.png",
+  "figures": [
+   "figures/3.27.2.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -14001,7 +14778,9 @@
    "산형 아치의 지점A에서 수평으로 a만큼 떨어진 거리에 집중하중이 수직으로 작용"
   ],
   "page": 196,
-  "figure": "figures/3.27.3.png",
+  "figures": [
+   "figures/3.27.3.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -14044,7 +14823,9 @@
    "산형 아치의 산 중심 절점C에 수직으로 집중하중 작용"
   ],
   "page": 196,
-  "figure": "figures/3.27.4.png",
+  "figures": [
+   "figures/3.27.4.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -14087,7 +14868,9 @@
    "산형 아치의 높이h만큼 왼쪽에서 수평방향으로 등분포하중 작용"
   ],
   "page": 197,
-  "figure": "figures/3.27.5.png",
+  "figures": [
+   "figures/3.27.5.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -14130,7 +14913,9 @@
    "산형 아치의 지점A에서 수직으로 f만큼 떨어진 지점에 집중하중이 수평으로 작용"
   ],
   "page": 197,
-  "figure": "figures/3.27.6.png",
+  "figures": [
+   "figures/3.27.6.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -14173,7 +14958,9 @@
    "산형 아치의 산 중심 절점C에 수평방향으로 집중하중 작용"
   ],
   "page": 197,
-  "figure": "figures/3.27.7.png",
+  "figures": [
+   "figures/3.27.7.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -14216,7 +15003,9 @@
    "산형 아치의 산 중심C에 핀이 존재하며, 산형 아치 경간의 l/2에 수직으로 등분포하중 작용"
   ],
   "page": 197,
-  "figure": "figures/3.27.8.png",
+  "figures": [
+   "figures/3.27.8.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -14252,7 +15041,9 @@
    "원호 아치 상부에서 수직으로 등분포하중 작용"
   ],
   "page": 198,
-  "figure": "figures/3.28.1.png",
+  "figures": [
+   "figures/3.28.1.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -14295,7 +15086,9 @@
    "원호 아치 경간 전체에 포물선 형태로 수직으로 등분포하중 작용"
   ],
   "page": 198,
-  "figure": "figures/3.28.2.png",
+  "figures": [
+   "figures/3.28.2.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -14345,7 +15138,9 @@
    "원호 아치 중앙에서 중심각이 theta만큼 떨어진 거리에서부터 지점A,지점B까지 동일한 크기의 등분포하중이 포물선 형태로 수직으로 작용"
   ],
   "page": 199,
-  "figure": "figures/3.28.3.png",
+  "figures": [
+   "figures/3.28.3.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -14395,7 +15190,9 @@
    "원호 아치 중앙에서 지점A방향으로 중심각이 theta만큼 떨어진 지점에 집중하중이 수직으로 작용"
   ],
   "page": 199,
-  "figure": "figures/3.28.4.png",
+  "figures": [
+   "figures/3.28.4.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -14445,7 +15242,9 @@
    "원호 아치 중앙에서 양쪽 방향으로 중심각이 theta만큼 떨어진 지점에 동일한 크기의 집중하중이 수직으로 작용"
   ],
   "page": 199,
-  "figure": "figures/3.28.5.png",
+  "figures": [
+   "figures/3.28.5.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -14495,7 +15294,9 @@
    "원호 아치 중앙에서 지점A방향으로 중심각이 theta만큼 떨어진 지점에 집중하중이 수평방향으로 작용"
   ],
   "page": 200,
-  "figure": "figures/3.28.6.png",
+  "figures": [
+   "figures/3.28.6.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -14545,7 +15346,9 @@
    "원호 아치 왼쪽에서 수평으로 등분포하중 작용"
   ],
   "page": 200,
-  "figure": "figures/3.28.7.png",
+  "figures": [
+   "figures/3.28.7.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -14595,7 +15398,9 @@
    "포물선 아치 상부에서 경간L에 등분포하중이 수직으로 작용"
   ],
   "page": 204,
-  "figure": "figures/3.30.1.png",
+  "figures": [
+   "figures/3.30.1.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -14631,7 +15436,9 @@
    "포물선 아치 상부에서 지점A로부터 경간의 1/2(l/2)에 등분포하중이 수직으로 작용"
   ],
   "page": 204,
-  "figure": "figures/3.30.2.png",
+  "figures": [
+   "figures/3.30.2.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -14667,7 +15474,9 @@
    "포물선 아치 상부에서 지점A로부터 /beta*L에 등분포하중이 수직으로 작용"
   ],
   "page": 204,
-  "figure": "figures/3.30.3.png",
+  "figures": [
+   "figures/3.30.3.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -14703,7 +15512,9 @@
    "포물선 아치 상부에서 지점A로부터 경간의 1/2(L/2)에 삼각분포하중이 수직으로 작용"
   ],
   "page": 205,
-  "figure": "figures/3.30.4.png",
+  "figures": [
+   "figures/3.30.4.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -14739,7 +15550,9 @@
    "포물선 아치 상부에서 경간L에 포물선분포하중(중앙으로 갈수록 작아지는)이 수직으로 작용"
   ],
   "page": 205,
-  "figure": "figures/3.30.5.png",
+  "figures": [
+   "figures/3.30.5.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -14775,7 +15588,9 @@
    "포물선 아치의 지점A에서 수직방향으로 h만큼 떨어진 거리에 집중하중이 수평방향으로 작용"
   ],
   "page": 205,
-  "figure": "figures/3.30.6.png",
+  "figures": [
+   "figures/3.30.6.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -14811,7 +15626,9 @@
    "포물선 아치의 왼쪽에서 등분포하중이 수평방향으로 작용"
   ],
   "page": 205,
-  "figure": "figures/3.30.7.png",
+  "figures": [
+   "figures/3.30.7.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -14847,7 +15664,9 @@
    "포물선 아치의 왼쪽에서 삼각분포하중이 수평방향으로 작용"
   ],
   "page": 205,
-  "figure": "figures/3.30.8.png",
+  "figures": [
+   "figures/3.30.8.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -14883,7 +15702,9 @@
    "포물선 아치의 왼쪽지점A에 모멘트 작용"
   ],
   "page": 205,
-  "figure": "figures/3.30.9.png",
+  "figures": [
+   "figures/3.30.9.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -14919,7 +15740,9 @@
    "원호 아치 중앙에서 지점A방향으로 중심각이 theta만큼 떨어진 지점에 집중하중이 수직으로 작용"
   ],
   "page": 201,
-  "figure": "figures/3.29.1.png",
+  "figures": [
+   "figures/3.29.1.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -14969,7 +15792,9 @@
    "원호 아치 중앙C점에 집중하중 작용"
   ],
   "page": 202,
-  "figure": "figures/3.29.2.png",
+  "figures": [
+   "figures/3.29.2.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -15019,7 +15844,9 @@
    "원호 아치 상부에서 수직으로 등분포하중 작용"
   ],
   "page": 202,
-  "figure": "figures/3.29.3.png",
+  "figures": [
+   "figures/3.29.3.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -15069,7 +15896,9 @@
    "원호 아치 경간 전체에 포물선 형태로 수직으로 등분포하중 작용"
   ],
   "page": 203,
-  "figure": "figures/3.29.4.png",
+  "figures": [
+   "figures/3.29.4.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -15119,7 +15948,9 @@
    "원호 아치 왼쪽에서 수평으로 등분포하중 작용"
   ],
   "page": 203,
-  "figure": "figures/3.29.5.png",
+  "figures": [
+   "figures/3.29.5.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -15169,7 +16000,9 @@
    "포물선 아치 상부 중앙점C에 집중하중이 수직으로 작용"
   ],
   "page": 206,
-  "figure": "figures/3.31.1.png",
+  "figures": [
+   "figures/3.31.1.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -15205,7 +16038,9 @@
    "포물선 아치 왼쪽 지점A에서 수평으로 l/4 떨어진 지점에 집중하중이 수직으로 작용"
   ],
   "page": 206,
-  "figure": "figures/3.31.2.png",
+  "figures": [
+   "figures/3.31.2.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -15241,7 +16076,9 @@
    "포물선 아치 왼쪽 지점A에서 수평으로 a만큼 떨어진 지점에 집중하중이 수직으로 작용"
   ],
   "page": 206,
-  "figure": "figures/3.31.3.png",
+  "figures": [
+   "figures/3.31.3.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -15277,7 +16114,9 @@
    "포물선 아치 양쪽 지점A,지점B에서 수평으로 l/4 떨어진 지점에 같은 크기의 집중하중이 수직으로 작용"
   ],
   "page": 207,
-  "figure": "figures/3.31.4.png",
+  "figures": [
+   "figures/3.31.4.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -15313,7 +16152,9 @@
    "포물선 아치 양쪽 지점A,지점B에서 수평으로 a만큼 떨어진 지점에 같은 크기의 집중하중이 수직으로 작용"
   ],
   "page": 207,
-  "figure": "figures/3.31.5.png",
+  "figures": [
+   "figures/3.31.5.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -15349,7 +16190,9 @@
    "포물선 아치의 중앙점C에 집중하중이 수평으로 작용"
   ],
   "page": 207,
-  "figure": "figures/3.31.6.png",
+  "figures": [
+   "figures/3.31.6.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -15385,7 +16228,9 @@
    "포물선 아치 왼쪽 지점A에서 수평으로 a만큼 떨어진 지점에 집중하중이 수평으로 작용"
   ],
   "page": 207,
-  "figure": "figures/3.31.7.png",
+  "figures": [
+   "figures/3.31.7.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -15421,7 +16266,9 @@
    "포물선 아치의 왼쪽에서 수평방향으로 등분포하중 작용"
   ],
   "page": 207,
-  "figure": "figures/3.31.8.png",
+  "figures": [
+   "figures/3.31.8.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -15457,7 +16304,9 @@
    "포물선 아치 상부에서 경간L에 등분포하중이 수직으로 작용"
   ],
   "page": 207,
-  "figure": "figures/3.31.9.png",
+  "figures": [
+   "figures/3.31.9.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -15493,7 +16342,9 @@
    "포물선 아치 상부에서 지점A로부터 경간L/2에 등분포하중이 수직으로 작용"
   ],
   "page": 208,
-  "figure": "figures/3.31.10.png",
+  "figures": [
+   "figures/3.31.10.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -15529,7 +16380,9 @@
    "포물선 아치 상부에서 지점A로부터 경간L/4에 등분포하중이 수직으로 작용"
   ],
   "page": 208,
-  "figure": "figures/3.31.11.png",
+  "figures": [
+   "figures/3.31.11.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -15565,7 +16418,9 @@
    "포물선 아치 상부에서 지점A로부터 수평으로 a만큼 떨어진 지점까지 등분포하중이 수직으로 작용"
   ],
   "page": 208,
-  "figure": "figures/3.31.12.png",
+  "figures": [
+   "figures/3.31.12.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -15601,7 +16456,9 @@
    "포물선 아치 양쪽 지점A,지점B에서 수평으로 l/4 떨어진 지점까지 같은 크기의 등분포하중이 수직으로 작용"
   ],
   "page": 209,
-  "figure": "figures/3.31.13.png",
+  "figures": [
+   "figures/3.31.13.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -15637,7 +16494,9 @@
    "포물선 아치 양쪽 지점A,지점B에서 수평으로 a만큼 떨어진 지점까지 같은 크기의 등분포하중이 수직으로 작용"
   ],
   "page": 209,
-  "figure": "figures/3.31.14.png",
+  "figures": [
+   "figures/3.31.14.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -15673,7 +16532,9 @@
    "포물선 아치 중앙에 l/2만큼 등분포하중이 수직으로 작용"
   ],
   "page": 209,
-  "figure": "figures/3.31.15.png",
+  "figures": [
+   "figures/3.31.15.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -15709,7 +16570,9 @@
    "포물선 아치 중앙에 a만큼 등분포하중이 수직으로 작용"
   ],
   "page": 209,
-  "figure": "figures/3.31.16.png",
+  "figures": [
+   "figures/3.31.16.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -15745,7 +16608,9 @@
    "포물선 아치 지점A에서 중앙점C까지 삼각분포하중이 수직으로 작용"
   ],
   "page": 209,
-  "figure": "figures/3.31.17.png",
+  "figures": [
+   "figures/3.31.17.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -15781,7 +16646,9 @@
    "포물선 아치 지점A에서 수평방향으로 a만큼 떨어진 지점까지 삼각분포하중이 수직으로 작용"
   ],
   "page": 209,
-  "figure": "figures/3.31.18.png",
+  "figures": [
+   "figures/3.31.18.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -15817,7 +16684,9 @@
    "포물선 아치 상부에 양쪽 고정단으로부터 l/2 거리까지 삼각분포하중이 대칭으로 수직으로 작용"
   ],
   "page": 210,
-  "figure": "figures/3.31.19.png",
+  "figures": [
+   "figures/3.31.19.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -15853,7 +16722,9 @@
    "포물선 아치 상부에 양쪽 고정단으로부터 거리 a씩 삼각분포하중이 대칭으로 수직으로 작용"
   ],
   "page": 210,
-  "figure": "figures/3.31.20.png",
+  "figures": [
+   "figures/3.31.20.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -15889,7 +16760,9 @@
    "포물선 아치 지점A에서 중앙점C까지 포물선분포하중이 수직으로 작용"
   ],
   "page": 210,
-  "figure": "figures/3.31.21.png",
+  "figures": [
+   "figures/3.31.21.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -15925,7 +16798,9 @@
    "포물선 아치 지점A에서 수평방향으로 a만큼 떨어진 지점까지 포물선분포하중이 수직으로 작용"
   ],
   "page": 211,
-  "figure": "figures/3.31.22.png",
+  "figures": [
+   "figures/3.31.22.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -15961,7 +16836,9 @@
    "포물선 아치 상부에서 경간L에 2차포물선분포하중이 수직으로 작용"
   ],
   "page": 211,
-  "figure": "figures/3.31.23.png",
+  "figures": [
+   "figures/3.31.23.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -15997,7 +16874,9 @@
    "포물선 아치 상부에 양쪽 고정단으로부터 거리 a씩 포물선분포하중이 대칭으로 수직으로 작용"
   ],
   "page": 211,
-  "figure": "figures/3.31.24.png",
+  "figures": [
+   "figures/3.31.24.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -16030,7 +16909,9 @@
   "id": "case 1",
   "classes": [],
   "page": null,
-  "figure": "figures/case 1.png",
+  "figures": [
+   "figures/case 1.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -16049,7 +16930,9 @@
   "id": "case 2",
   "classes": [],
   "page": null,
-  "figure": "figures/case 2.png",
+  "figures": [
+   "figures/case 2.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -16068,7 +16951,9 @@
   "id": "case 3",
   "classes": [],
   "page": null,
-  "figure": "figures/case 3.png",
+  "figures": [
+   "figures/case 3.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -16087,7 +16972,9 @@
   "id": "case 1",
   "classes": [],
   "page": 334,
-  "figure": "figures/case 1.png",
+  "figures": [
+   "figures/case 1.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -16113,7 +17000,9 @@
   "id": "case 2",
   "classes": [],
   "page": 334,
-  "figure": "figures/case 2.png",
+  "figures": [
+   "figures/case 2.png"
+  ],
   "desc": null,
   "results": [
    {
@@ -16139,7 +17028,9 @@
   "id": "case 3",
   "classes": [],
   "page": 334,
-  "figure": "figures/case 3.png",
+  "figures": [
+   "figures/case 3.png"
+  ],
   "desc": null,
   "results": [
    {

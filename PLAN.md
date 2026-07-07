@@ -46,12 +46,28 @@ Case {
   8. 위치 x 의존식·구간(piecewise) 처리.
 
 ## 진행 상태
-- [x] Phase 1-1 변환기 (`scripts/import_excel.py`) — 454케이스/1368수식, 삽도 421 연결
+- [x] Phase 1-1 변환기 (`scripts/import_excel.py`) — 454케이스/1368수식, 삽도 **426** 연결
+      (다중삽도 지원: `<id>.N.png` 여러 장 → `figures[]` 배열. 라멘 3.6·3.8 등 복구)
 - [x] Phase 1-2 스캐폴드 (Vite8+React19+TS, katex, mathjs) — `app/`
 - [x] Phase 1-3 트리/상세 UI — 분류→형태→하중 트리 + 삽도 + KaTeX + 변수
 - [x] Phase 1-4 검색 — 공식명/변수/번호 전문검색
 - [ ] Phase 1-5 배포 (Vercel/GH Pages)
-- [ ] Phase 2 계산기
+- [x] **Phase 2 계산기 프로토타입 — LaTeX 동적 변환 방식**
+      표시용 LaTeX를 mathjs 식으로 자동 변환(별도 수식 주입 불필요).
+      - `app/src/calc/latex.js` : LaTeX→mathjs 트랜스파일러 (frac·cdot·^·_·sqrt·그리스·삼각·암묵곱)
+      - `app/src/calc/evaluate.ts` : 자유변수 추출·입력집합·의존식 반복해석(solve)
+      - `app/src/components/Calculator.tsx` : 입력폼 자동생성 → 결과 표시
+      - 커버리지 `scripts/probe_coverage.mjs`: **변환 99.6% / 변환+평가 97.2%**
+      - 정확성 `scripts/probe_correct.mjs`: 알려진 공식 8/8 일치. 브라우저 검증 OK
+      - **계산과정 표시**: `출력 = 원식 = 값대입 = 최종값` 한 줄(KaTeX). 대입값 6자리 반올림.
+      - **의존식 연결**: 앞 수식 결과를 뒤 수식이 사용(`solve` 반복대입). 연쇄등호
+        `H=H_A=-H_D` 의 모든 별칭을 부호까지 scope 등록. 동일식 중복은 1회만.
+      - **변수설명도 LaTeX 렌더**(`symbols.ts`). 각 수식마다 결과 표시(미지원식도 노출).
+      - 트랜스파일러 핵심 교훈:
+        · `E/e/φ/τ` 는 mathjs 상수가 아니라 **입력변수**로 취급(KNOWN=π만).
+        · 붙은 낱글자(`wl`,`EI`,`Pl`)는 **곱으로 분리**(변수는 단일문자·곱은 공백생략).
+        · `\Delta v` 는 곱이 아니라 한 변수 Δv.
+- [ ] Phase 2 잔여: 위치변수 x 슬라이더/그래프, piecewise 도메인 UI, 단위, 실패 3%(적분 등) 처리
 
 ## 실행 방법
 ```

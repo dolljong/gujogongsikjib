@@ -226,6 +226,20 @@ body {
   max-width: 100%;
   height: auto;
 }
+.figure-multi {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  justify-content: center;
+  align-items: flex-start;
+}
+.figure-multi img {
+  max-width: min(100%, 240px);
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  padding: 6px;
+  background: #fff;
+}
 
 .results {
   display: flex;
@@ -266,12 +280,94 @@ body {
   margin-right: 4px;
 }
 
-.calc-note {
+/* ---- 계산기 ---- */
+.calc {
   margin-top: 26px;
-  padding: 12px 14px;
-  background: #fff8e6;
-  border: 1px solid #f0e0b0;
-  border-radius: 8px;
-  color: #8a6d1a;
+  padding: 16px 18px;
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 10px;
+}
+.calc-head {
+  font-weight: 700;
+  font-size: 15px;
+  margin-bottom: 12px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.calc-badge {
+  font-size: 11px;
+  font-weight: 600;
+  padding: 2px 7px;
+  border-radius: 999px;
+  background: var(--accent-soft);
+  color: var(--accent);
+}
+.calc-inputs {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+  gap: 10px 12px;
+}
+.calc-field {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.calc-var {
+  font-size: 13px;
+  color: var(--muted);
+  min-height: 18px;
+}
+.calc-field input {
+  padding: 7px 9px;
+  border: 1px solid var(--line);
+  border-radius: 7px;
+  font-size: 14px;
+  width: 100%;
+  box-sizing: border-box;
+}
+.calc-field input:focus {
+  outline: none;
+  border-color: var(--accent);
+}
+.calc-hint {
+  margin: 12px 0 0;
   font-size: 12.5px;
+  color: var(--muted);
+}
+.calc-outputs {
+  margin-top: 14px;
+  border-top: 1px dashed var(--line);
+  padding-top: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.calc-out {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+.calc-line {
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding: 3px 0;
+}
+.calc-line .katex {
+  font-size: 1.05em;
+}
+/* 최종값(마지막 = 뒤)을 강조하긴 어렵지만 전체 식을 또렷하게 */
+.calc-line-fail .katex {
+  opacity: 0.6;
+}
+.calc-dom {
+  color: var(--id);
+  font-size: 12px;
+  font-style: normal;
+}
+.calc-note-small {
+  margin: 14px 0 0;
+  font-size: 11.5px;
+  color: var(--id);
 }

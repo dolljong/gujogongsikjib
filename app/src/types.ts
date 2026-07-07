@@ -13,7 +13,7 @@ export interface Case {
   id: string;
   classes: string[];
   page: number | string | null;
-  figure: string | null;
+  figures: string[];
   desc: string | null;
   results: Result[];
 }

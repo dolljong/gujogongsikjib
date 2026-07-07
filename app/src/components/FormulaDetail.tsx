@@ -1,5 +1,29 @@
 import type { Case } from "../types";
 import Katex from "./Katex";
+import Calculator from "./Calculator";
+import { symbolToLatex } from "../calc/symbols";
+
+// 변수설명("sym : 설명, sym : 설명 …")에서 기호 부분을 LaTeX로 렌더.
+function VariableList({ text }: { text: string }) {
+  const segs = text.split(",");
+  return (
+    <div className="result-vars">
+      <span className="vars-label">변수</span>{" "}
+      {segs.map((seg, i) => {
+        const ci = seg.indexOf(":");
+        const sym = (ci >= 0 ? seg.slice(0, ci) : seg).trim();
+        const desc = ci >= 0 ? seg.slice(ci + 1).trim() : "";
+        return (
+          <span className="var-item" key={i}>
+            {i > 0 && ", "}
+            {sym && <Katex tex={symbolToLatex(sym)} display={false} />}
+            {ci >= 0 && <>: {desc}</>}
+          </span>
+        );
+      })}
+    </div>
+  );
+}
 
 const BASE = import.meta.env.BASE_URL;
 
@@ -36,9 +60,16 @@ export default function FormulaDetail({ c }: { c: Case | null }) {
       </div>
       {c.desc && <p className="desc">{c.desc}</p>}
 
-      {c.figure && (
-        <div className="figure">
-          <img src={`${BASE}${c.figure}`} alt={c.id} loading="lazy" />
+      {c.figures.length > 0 && (
+        <div className={`figure${c.figures.length > 1 ? " figure-multi" : ""}`}>
+          {c.figures.map((f, i) => (
+            <img
+              key={i}
+              src={`${BASE}${f}`}
+              alt={c.figures.length > 1 ? `${c.id} (${i + 1})` : c.id}
+              loading="lazy"
+            />
+          ))}
         </div>
       )}
 
@@ -51,18 +82,12 @@ export default function FormulaDetail({ c }: { c: Case | null }) {
                 <Katex tex={r.latex} />
               </div>
             )}
-            {r.variables && (
-              <div className="result-vars">
-                <span className="vars-label">변수</span> {r.variables}
-              </div>
-            )}
+            {r.variables && <VariableList text={r.variables} />}
           </div>
         ))}
       </div>
 
-      <div className="calc-note">
-        계산기 기능(값 입력 → 결과)은 다음 단계에서 추가됩니다.
-      </div>
+      <Calculator c={c} />
     </div>
   );
 }
