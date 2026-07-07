@@ -1,0 +1,16 @@
+# dependencies / build
+app/node_modules/
+app/dist/
+node_modules/
+
+# python
+__pycache__/
+*.pyc
+
+# os
+Thumbs.db
+.DS_Store
+
+# editor
+.vscode/
+.idea/
