@@ -23,7 +23,7 @@ export default function App() {
         <span className="sub">{cases.length}개 공식 케이스</span>
       </header>
 
-      <div className="body">
+      <div className={"body" + (selected ? " showing-detail" : "")}>
         <aside className="sidebar">
           <input
             className="search"
@@ -61,6 +61,15 @@ export default function App() {
         </aside>
 
         <main className="main">
+          {selected && (
+            <button
+              className="back-btn"
+              onClick={() => setSelected(null)}
+              aria-label="목록으로"
+            >
+              ← 목록
+            </button>
+          )}
           <FormulaDetail c={selected} />
         </main>
       </div>
