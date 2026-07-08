@@ -79,7 +79,7 @@ export default function FormulaDetail({ c }: { c: Case | null }) {
         </div>
       )}
 
-      {hasCalc && <Calculator c={c} model={model} />}
+      {hasCalc && <Calculator key={c.id} c={c} model={model} />}
 
       <div className="results">
         {c.results.map((r, i) => (

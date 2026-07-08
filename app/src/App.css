@@ -355,6 +355,107 @@ body {
   outline: none;
   border-color: var(--accent);
 }
+.calc-unit {
+  padding: 6px 4px;
+  border: 1px solid var(--line);
+  border-radius: 7px;
+  font-size: 13px;
+  background: var(--bg, #fff);
+  color: inherit;
+  flex: 0 0 auto;
+  min-width: 62px;
+}
+.calc-unit:focus {
+  outline: none;
+  border-color: var(--accent);
+}
+.calc-conv {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin: 1px 0 2px;
+}
+.calc-conv-label {
+  font-size: 11.5px;
+  color: var(--id);
+}
+.calc-conv-val {
+  font-size: 13.5px;
+  color: var(--accent);
+  font-variant-numeric: tabular-nums;
+}
+/* E 입력: 재료(강재/콘크리트) 선택 */
+.calc-mat {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  flex-wrap: wrap;
+  flex: 1 1 auto;
+  min-width: 0;
+}
+.calc-mat input {
+  padding: 7px 9px;
+  border: 1px solid var(--line);
+  border-radius: 7px;
+  font-size: 14px;
+  width: 90px;
+  min-width: 0;
+  box-sizing: border-box;
+}
+.calc-mat input:focus {
+  outline: none;
+  border-color: var(--accent);
+}
+.calc-fixed {
+  font-size: 13.5px;
+  color: var(--muted);
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+.calc-fck {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+.calc-fck-lab {
+  font-size: 13px;
+  color: var(--muted);
+}
+.calc-unit-static {
+  font-size: 13px;
+  color: var(--muted);
+}
+.calc-ec {
+  font-size: 13px;
+  color: var(--accent);
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+  display: inline-flex;
+  align-items: center;
+  gap: 3px;
+}
+/* 콘크리트 탄성계수 산정과정 블록 */
+.calc-concrete {
+  margin-top: 14px;
+  border-top: 1px dashed var(--line);
+  padding-top: 10px;
+}
+.calc-sub-head {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--muted);
+  margin-bottom: 4px;
+}
+.calc-std {
+  font-weight: 400;
+  font-size: 11.5px;
+  color: var(--id);
+  margin-left: 4px;
+}
+.calc-concrete .calc-note-small {
+  margin-top: 4px;
+}
 .calc-hint {
   margin: 12px 0 0;
   font-size: 12.5px;
