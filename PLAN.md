@@ -51,7 +51,9 @@ Case {
 - [x] Phase 1-2 스캐폴드 (Vite8+React19+TS, katex, mathjs) — `app/`
 - [x] Phase 1-3 트리/상세 UI — 분류→형태→하중 트리 + 삽도 + KaTeX + 변수
 - [x] Phase 1-4 검색 — 공식명/변수/번호 전문검색
-- [ ] Phase 1-5 배포 (Vercel/GH Pages)
+- [~] Phase 1-5 배포 — GitHub Pages 자동배포 워크플로(`.github/workflows/deploy.yml`).
+      main 푸시 시 app/ 빌드→Pages 배포. **최초 1회** 저장소 Settings→Pages→
+      Source를 "GitHub Actions"로 지정해야 동작. URL: dolljong.github.io/gujogongsikjib/
 - [x] **Phase 2 계산기 프로토타입 — LaTeX 동적 변환 방식**
       표시용 LaTeX를 mathjs 식으로 자동 변환(별도 수식 주입 불필요).
       - `app/src/calc/latex.js` : LaTeX→mathjs 트랜스파일러 (frac·cdot·^·_·sqrt·그리스·삼각·암묵곱)
