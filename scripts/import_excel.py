@@ -19,6 +19,21 @@ FIG_OUT = os.path.join(ROOT, "app", "public", "figures")
 
 IMG_EXTS = [".png", ".jpg", ".jpeg", ".gif", ".svg"]
 
+# 원본 엑셀 LaTeX 오타 보정. {케이스 id: [(찾을 문자열, 바꿀 문자열)]}
+# 계산기가 원본 공식을 그대로 쓰므로, 명백한 오타는 여기서 교정한다.
+LATEX_FIXES = {
+    # 중공 직사각형 I식: 아래첨자 오타 h_i → h_1 (Z·i 식은 h_1 로 정상)
+    "1.6.11": [("h_{i}", "h_{1}")],
+}
+
+
+def apply_latex_fix(cid, latex):
+    if latex is None:
+        return latex
+    for old, new in LATEX_FIXES.get(str(cid), []):
+        latex = latex.replace(old, new)
+    return latex
+
 
 def build_figure_folders():
     """삽도 하위 폴더를 앞 번호(0,1,2..)로 매핑. 엑셀 파일명과 폴더명의
@@ -175,7 +190,7 @@ def main():
 
                 g["results"].append({
                     "name": name,
-                    "latex": latex,
+                    "latex": apply_latex_fix(cid, latex),
                     "variables": variables,
                     # Phase 2(계산기)에서 채울 필드:
                     "expr": None,

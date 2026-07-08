@@ -257,8 +257,17 @@ export function parseLatexFormula(latex) {
   s = s.replace(/\\begin\{[^}]*\}(\{[^}]*\})?/g, "").replace(/\\end\{[^}]*\}/g, "");
   s = s.replace(/&/g, ""); // 정렬 마커
 
-  // 줄 분해: \\  → 여러 식
-  const lines = s.split(/\\\\|\n/).map((x) => x.trim()).filter(Boolean);
+  // 줄 분해: \\  → 여러 식.
+  // 근사기호(≒ \leftrightharpoons 등)는 표시용 근사값이므로, 그 뒤(근사식)를 잘라
+  // 정확식만 남긴다. (예: I = 정확식 ≒ ¼A r² → 정확식만)
+  const APPROX = /\\(?:leftrightharpoons|rightharpoons|fallingdotseq|doteqdot|approx|simeq|cong)\b|[≒≓≑≅≈]/;
+  const lines = s
+    .split(/\\\\|\n/)
+    .map((x) => {
+      const m = APPROX.exec(x);
+      return (m ? x.slice(0, m.index) : x).trim();
+    })
+    .filter(Boolean);
 
   const eqs = [];
   for (const line of lines) {
