@@ -456,6 +456,135 @@ body {
 .calc-concrete .calc-note-small {
   margin-top: 4px;
 }
+/* I 입력: 단면 선택 */
+.calc-sect-applied {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+.calc-sect-btn {
+  padding: 6px 12px;
+  border: 1px solid var(--accent);
+  border-radius: 7px;
+  background: transparent;
+  color: var(--accent);
+  font-size: 13px;
+  cursor: pointer;
+  white-space: nowrap;
+}
+.calc-sect-btn:hover {
+  background: var(--accent);
+  color: #fff;
+}
+/* 단면 선택 팝업(모달) */
+.modal-backdrop {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.45);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+  z-index: 1000;
+}
+.modal {
+  background: var(--bg, #fff);
+  color: inherit;
+  border-radius: 12px;
+  width: min(560px, 100%);
+  max-height: min(88vh, 760px);
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.3);
+}
+.modal-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 14px 16px;
+  border-bottom: 1px solid var(--line);
+  font-weight: 600;
+}
+.modal-x {
+  border: none;
+  background: transparent;
+  font-size: 22px;
+  line-height: 1;
+  color: var(--muted);
+  cursor: pointer;
+  padding: 0 4px;
+}
+.modal-body {
+  padding: 14px 16px;
+  overflow-y: auto;
+}
+.sec-select {
+  width: 100%;
+  padding: 8px 10px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  font-size: 14px;
+  background: var(--bg, #fff);
+  color: inherit;
+  margin-bottom: 12px;
+}
+.sec-main {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  align-items: flex-start;
+}
+.sec-main .figure {
+  flex: 0 0 auto;
+  max-width: 200px;
+}
+.sec-main .figure img {
+  max-width: 100%;
+}
+.sec-inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  flex: 1 1 200px;
+  min-width: 170px;
+}
+.sec-outputs {
+  margin-top: 14px;
+  border-top: 1px dashed var(--line);
+  padding-top: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.sec-out {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 3px 0;
+}
+.sec-out-val {
+  font-size: 14px;
+  font-variant-numeric: tabular-nums;
+}
+.sec-out-target .sec-out-val {
+  font-weight: 600;
+}
+.sec-apply {
+  padding: 5px 12px;
+  border: 1px solid var(--accent);
+  border-radius: 7px;
+  background: var(--accent);
+  color: #fff;
+  font-size: 12.5px;
+  cursor: pointer;
+  white-space: nowrap;
+  flex: 0 0 auto;
+}
+.sec-apply:hover {
+  opacity: 0.9;
+}
 .calc-hint {
   margin: 12px 0 0;
   font-size: 12.5px;

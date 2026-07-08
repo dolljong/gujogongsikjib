@@ -5,6 +5,11 @@ import { varToLatex } from "../calc/symbols";
 import { UNIT_MENU, unitLabel } from "../calc/units";
 import { STEEL_E_MPA, concreteEc, type Material } from "../calc/material";
 import Katex from "./Katex";
+import SectionPicker from "./SectionPicker";
+
+// I(단면2차모멘트) 입력 모드: 직접입력 / 단면 선택(팝업)
+type IMode = "custom" | "section";
+interface SectionVal { value: number; unit: string; label: string; secId: string }
 
 const BASE = import.meta.env.BASE_URL;
 
@@ -69,6 +74,9 @@ export default function Calculator({ c, model }: { c: Case; model: CalcModel }) 
   const [resUnit, setResUnit] = useState<Record<number, string>>({}); // 식 인덱스 → 결과 단위
   const [mat, setMat] = useState<Record<string, Material>>({}); // E 입력 → 재료
   const [fck, setFck] = useState<Record<string, string>>({}); // 콘크리트 fck (MPa)
+  const [iMode, setIMode] = useState<Record<string, IMode>>({}); // I 입력 → 모드
+  const [iSection, setISection] = useState<Record<string, SectionVal>>({}); // 적용된 단면값
+  const [modalFor, setModalFor] = useState<string | null>(null); // 단면 팝업 대상 입력
 
   // 입력 없으면 계산기 숨김
   if (model.inputs.length === 0 || !model.equations.some((e) => e.computable)) {
@@ -81,6 +89,9 @@ export default function Calculator({ c, model }: { c: Case; model: CalcModel }) 
   // E(영계수) 입력에는 재료(강재/콘크리트) 선택을 제공.
   const isMatInput = (v: string) => model.dims.get(v) === "modulus" && /^E/i.test(v);
   const matOf = (v: string): Material => mat[v] ?? "custom";
+  // I(단면2차모멘트) 입력에는 단면 선택(팝업)을 제공.
+  const isSectInput = (v: string) => model.dims.get(v) === "inertia";
+  const iModeOf = (v: string): IMode => iMode[v] ?? "custom";
 
   // 입력값 해석: {수치, 단위, 채워짐}
   const stateOf = (v: string): { value: number | null; unit?: string; filled: boolean } => {
@@ -94,6 +105,12 @@ export default function Calculator({ c, model }: { c: Case; model: CalcModel }) 
         }
         return { value: concreteEc(f).Ec, unit: "MPa", filled: true };
       }
+    }
+    if (isSectInput(v) && iModeOf(v) === "section") {
+      const sv = iSection[v];
+      return sv
+        ? { value: sv.value, unit: sv.unit, filled: true }
+        : { value: null, unit: undefined, filled: false };
     }
     const raw = vals[v];
     if (raw === undefined || raw === "" || Number.isNaN(Number(raw))) {
@@ -141,6 +158,7 @@ export default function Calculator({ c, model }: { c: Case; model: CalcModel }) 
           {model.inputs.map((v) => {
             const menu = menuOf(v);
             const matInput = isMatInput(v);
+            const sectInput = isSectInput(v);
             const m = matOf(v);
             return (
               <label className="calc-field" key={v}>
@@ -148,7 +166,59 @@ export default function Calculator({ c, model }: { c: Case; model: CalcModel }) 
                   <Katex tex={varToLatex(v)} display={false} />
                 </span>
 
-                {matInput ? (
+                {sectInput ? (
+                  <div className="calc-mat">
+                    <select
+                      className="calc-unit"
+                      value={iModeOf(v)}
+                      onChange={(e) => setIMode((s) => ({ ...s, [v]: e.target.value as IMode }))}
+                    >
+                      <option value="custom">직접입력</option>
+                      <option value="section">단면 선택</option>
+                    </select>
+
+                    {iModeOf(v) === "custom" && (
+                      <>
+                        <input
+                          type="number"
+                          inputMode="decimal"
+                          value={vals[v] ?? ""}
+                          placeholder="0"
+                          onChange={(e) => setVals((s) => ({ ...s, [v]: e.target.value }))}
+                        />
+                        {menu && (
+                          <select
+                            className="calc-unit"
+                            value={unitOf(v)}
+                            onChange={(e) => setUnits((s) => ({ ...s, [v]: e.target.value }))}
+                          >
+                            {menu.map((o) => (
+                              <option key={o.u} value={o.u}>{o.label}</option>
+                            ))}
+                          </select>
+                        )}
+                      </>
+                    )}
+
+                    {iModeOf(v) === "section" && (
+                      iSection[v] ? (
+                        <span className="calc-sect-applied">
+                          <span className="calc-ec">
+                            {iSection[v].label.split(" · ")[0]}: {fmt(iSection[v].value)}{" "}
+                            {unitLabel(iSection[v].unit)}
+                          </span>
+                          <button type="button" className="calc-sect-btn" onClick={() => setModalFor(v)}>
+                            변경
+                          </button>
+                        </span>
+                      ) : (
+                        <button type="button" className="calc-sect-btn" onClick={() => setModalFor(v)}>
+                          단면 선택…
+                        </button>
+                      )
+                    )}
+                  </div>
+                ) : matInput ? (
                   <div className="calc-mat">
                     <select
                       className="calc-unit"
@@ -323,6 +393,20 @@ export default function Calculator({ c, model }: { c: Case; model: CalcModel }) 
       <p className="calc-note-small">
         입력 단위로부터 결과 단위를 자동 도출합니다. 값·부호는 원식과 대조하세요.
       </p>
+
+      {modalFor && (
+        <SectionPicker
+          targetDim="inertia"
+          targetLabel={modalFor}
+          initialSecId={iSection[modalFor]?.secId}
+          onClose={() => setModalFor(null)}
+          onApply={(value, unit, label, secId) => {
+            const v = modalFor;
+            setISection((s) => ({ ...s, [v]: { value, unit, label, secId } }));
+            setModalFor(null);
+          }}
+        />
+      )}
     </div>
   );
 }
