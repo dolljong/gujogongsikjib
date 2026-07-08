@@ -3,7 +3,7 @@ import type { Dimension } from "../calc/dimension";
 import { buildCalcModel, solve } from "../calc/evaluate";
 import { UNIT_MENU, unitLabel } from "../calc/units";
 import { varToLatex } from "../calc/symbols";
-import { sectionCases, sectionLabel } from "../calc/sections";
+import { sectionCases, sectionLabel, sectionDim } from "../calc/sections";
 import Katex from "./Katex";
 
 const BASE = import.meta.env.BASE_URL;
@@ -48,7 +48,14 @@ export default function SectionPicker({ targetDim, targetLabel, initialSecId, on
 
   if (!model || !sec) return null;
 
-  const menuOf = (v: string) => UNIT_MENU[model.dims.get(v) ?? "unknown"];
+  // 그림에만 치수가 있는 단면은 오버라이드 차원을 우선한다.
+  const effDim = (v: string) => sectionDim(secId, v) ?? model.dims.get(v) ?? "unknown";
+  const isAngle = (v: string) => effDim(v) === "angle";
+  // 각도는 mathjs 단위(호 계수에서 에러) 대신 도(°) 입력→라디안 순수숫자로 처리.
+  const menuOf = (v: string) => {
+    const d = effDim(v);
+    return d === "angle" || d === "count" ? undefined : UNIT_MENU[d as Dimension];
+  };
   const unitOf = (v: string) => units[v] ?? menuOf(v)?.[0]?.u;
 
   const scope: Record<string, number> = {};
@@ -56,10 +63,17 @@ export default function SectionPicker({ targetDim, targetLabel, initialSecId, on
   let allFilled = true;
   for (const v of model.inputs) {
     const raw = vals[v];
-    if (raw === undefined || raw === "" || Number.isNaN(Number(raw))) allFilled = false;
-    else scope[v] = Number(raw);
-    const u = unitOf(v);
-    if (u) inputUnits[v] = u;
+    if (raw === undefined || raw === "" || Number.isNaN(Number(raw))) {
+      allFilled = false;
+      continue;
+    }
+    if (isAngle(v)) {
+      scope[v] = (Number(raw) * Math.PI) / 180; // 도 → 라디안(순수 숫자)
+    } else {
+      scope[v] = Number(raw);
+      const u = unitOf(v);
+      if (u) inputUnits[v] = u;
+    }
   }
   const solved = allFilled ? solve(model, scope, inputUnits) : null;
 
@@ -103,6 +117,7 @@ export default function SectionPicker({ targetDim, targetLabel, initialSecId, on
             <div className="sec-inputs">
               {model.inputs.map((v) => {
                 const menu = menuOf(v);
+                const angle = isAngle(v);
                 return (
                   <label className="calc-field" key={v}>
                     <span className="calc-var">
@@ -115,16 +130,20 @@ export default function SectionPicker({ targetDim, targetLabel, initialSecId, on
                       placeholder="0"
                       onChange={(e) => setVals((s) => ({ ...s, [v]: e.target.value }))}
                     />
-                    {menu && (
-                      <select
-                        className="calc-unit"
-                        value={unitOf(v)}
-                        onChange={(e) => setUnits((s) => ({ ...s, [v]: e.target.value }))}
-                      >
-                        {menu.map((o) => (
-                          <option key={o.u} value={o.u}>{o.label}</option>
-                        ))}
-                      </select>
+                    {angle ? (
+                      <span className="calc-unit-static">°</span>
+                    ) : (
+                      menu && (
+                        <select
+                          className="calc-unit"
+                          value={unitOf(v)}
+                          onChange={(e) => setUnits((s) => ({ ...s, [v]: e.target.value }))}
+                        >
+                          {menu.map((o) => (
+                            <option key={o.u} value={o.u}>{o.label}</option>
+                          ))}
+                        </select>
+                      )
                     )}
                   </label>
                 );

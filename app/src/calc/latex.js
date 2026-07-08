@@ -191,10 +191,16 @@ export function latexExprToMath(src) {
   s = s.replace(/_\s*\{([^{}]*)\}/g, (_, g) => g.replace(/[^A-Za-z0-9]/g, ""));
   s = s.replace(/_\s*([A-Za-z0-9])/g, (_, g) => g);
 
-  // 함수 인수 괄호 보정: sin 30 → sin(30)
+  // 함수 인수 괄호 보정: sin 30 → sin(30), \sin 2\phi → sin(2 phi)
+  // 인수 = (계수 + 기호) 또는 기호 또는 숫자. "sin 2 phi" 를 sin(2)*phi 로 잘못
+  // 끊지 않도록 계수 뒤 기호까지 포함한다.
   for (const f of FUNCS) {
-    const re = new RegExp("\\b" + f + "\\s*(?!\\()([A-Za-z0-9.]+)", "g");
-    s = s.replace(re, f + "($1)");
+    const re = new RegExp(
+      "\\b" + f +
+        "\\s*(?!\\()([0-9.]+\\s*[A-Za-z][A-Za-z0-9]*|[A-Za-z][A-Za-z0-9]*|[0-9.]+)",
+      "g",
+    );
+    s = s.replace(re, (_m, arg) => f + "((" + arg.trim() + "))");
   }
 
   // 정리
